@@ -5,8 +5,8 @@ import { ChevronDown } from "lucide-react";
 
 export function Navbar() {
   return (
-       <header className=" max-w-6xl mx-auto">
-        <div className=" flex items-center w-full justify-between z-10 bg-white/95 px-4 ">
+       <header className=" max-w-7xl mx-auto lg:px-8">
+        <div className=" flex items-center w-full justify-between z-10 bg-white/95  ">
           {/* Logo (left) */}
           <div className=" ">
             <Link href="/" className="text-lg font-bold inline-flex items-center">
@@ -35,7 +35,7 @@ export function Navbar() {
       <div className="mt-16  grid grid-cols-2 items-center">
         {/* Right */}
         <div className="max-w-[600px]">
-          <span className="border rounded-[24px] p-1 leading-[120%] font-light font-lenx size-[6px] w-fit">Must-attend tech event for the Microsoft Ecosystem in Cameroon</span>
+          <span className="border rounded-3xl p-1 leading-[120%] font-light font-lenx size-1.5 w-fit">Must-attend tech event for the Microsoft Ecosystem in Cameroon</span>
           <h1 className="font-grotesk font-bold leading-[110%] tracking-[-8%] text-[44px] mt-0.5 ">
             .NET Community Conference 2025 | 8th edition
           </h1>
@@ -73,7 +73,7 @@ export function Navbar() {
         <div className=" flex justify-end">
           <div>
             <div className="">
-              <div className="bg-[#512BD4] w-[120px] h-[31px] rounded-[12px] px-[20px] py-[10px] border border-2 borer-[4px] border-[#FFFFFF] border-[4px]text-[16px] leanding-[160%] text-black tracking-[-4%] font-grotesk font-bold text-white items-center justify-center rotate-4 flex">
+              <div className="bg-[#512BD4] w-[120px] h-[31px] rounded-[12px] px-[20px] py-[10px]  border-2 borer-[4px] border-[#FFFFFF] border-[4px]text-[16px] leanding-[160%] text-black tracking-[-4%] font-grotesk font-bold text-white items-center justify-center rotate-4 flex">
                 Time left
               </div>
             </div>

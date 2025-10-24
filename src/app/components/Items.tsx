@@ -1,0 +1,45 @@
+import { BookOpenText, HandFist, RefreshCcw, UserRound } from "lucide-react"
+
+
+
+export default function Items() { 
+    return (
+        <div  className=" max-w-6xl mx-auto mt-20">
+            <div className=" items-center  w-full justify-between z-10 bg-white/95 px-4">
+
+                <div className="w-[528px] mb-12 ">
+                    
+                    <h2 className="text-[44px] font-bold font-grotesk">Why come, <span className="text-[#512BD4] font-bold text-[44px] leading-[110%] tracking-[-8%] ">why now?</span></h2>
+                    <p className="font-lenx text-[16px] leading-[140%] font-light">Much more than a conference, it is a learning experience, a chance to 
+                    share and discover opportunities that can transform your career.</p>
+                </div>
+
+                <div className=" items-start justify-center mt-5 grid
+                 grid-cols-4">
+                    <div className=" border-r p-4">
+                        <div className="text-[#512BD4] ">
+                            <HandFist />
+                            <h2 className="font-bold font-grotesk text-[20px] leading-[110%] mt-3">Boost your career</h2>
+                        </div>
+                        <p>Relevant content: real-life feedback, best practices, career coaching, resume or LinkedIn profile reviews.</p>
+                    </div>
+                    <div className=" border-l border-r px-4 py-4 pb-20">
+                        <BookOpenText />
+                        <h2 className="font-bold font-grotesk text-[20px] leading-[110%] mt-3">Learn by doing</h2>
+                        <p>Guided workshops and labs allow you to code, test, and experiment. </p>
+                    </div>
+                    <div className="border-l border-r p-4">
+                        <UserRound />
+                        <h2 className="font-bold font-grotesk text-[20px] leading-[110%] mt-3">Meet the ecosystem</h2>
+                        <p>The perfect opportunity to expand your network, exchange ideas, and find new collaborators or professional opportunities.</p>
+                    </div>
+                    <div className="border-l  p-4">
+                        <RefreshCcw />
+                        <h2 className="font-bold font-grotesk text-[20px] leading-[110%] mt-3">Stay up to date</h2>
+                        <p>Experts and practitioners reveal the latest developments in .NET, C#, Azure, AI, DevOps, security, and modern architecture.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}

@@ -5,8 +5,8 @@ import { ChevronDown } from "lucide-react";
 
 export function Navbar() {
   return (
-    <header className=" max-w-6xl mx-auto">
-        <div className=" flex items-center gap-[2px] w-full justify-between z-10 bg-white/95 px-4 ">
+       <header className=" max-w-6xl mx-auto">
+        <div className=" flex items-center w-full justify-between z-10 bg-white/95 px-4 ">
           {/* Logo (left) */}
           <div className=" ">
             <Link href="/" className="text-lg font-bold inline-flex items-center">
@@ -15,7 +15,7 @@ export function Navbar() {
           </div>
 
           {/* Centered Navigation */}
-          <nav className=" justify-center gap-[24px] flex text-sm font-lenx">
+          <nav className=" justify-center gap-4 flex text-sm font-lenx">
             <Link href="/" className="font-bold">Home</Link>
             <Link href="/event">Events</Link>
             <Link href="/about">About us</Link>
@@ -71,7 +71,7 @@ export function Navbar() {
         </div>
         {/* Left */}
         <div className=" flex justify-end">
-          <div className="border" >
+          <div>
             <div className="">
               <div className="bg-[#512BD4] w-[120px] h-[31px] rounded-[12px] px-[20px] py-[10px] border border-2 borer-[4px] border-[#FFFFFF] border-[4px]text-[16px] leanding-[160%] text-black tracking-[-4%] font-grotesk font-bold text-white items-center justify-center rotate-4 flex">
                 Time left
@@ -88,36 +88,6 @@ export function Navbar() {
           </div>
         </div>
       </div>
-
-      <div className="w-full">
-        <div>
-          <Image src="/image_1.png" alt="Hero Image" width={1440} height={500} />
-        </div>
-        <div>
-          <Image src="/image_1.png" alt="Hero Image" width={200} height={62} />
-        </div>
-        <div>
-          <Image src="/image_1.png" alt="Hero Image" width={1440} height={500} />
-        </div>
-        <div>
-          <Image src="/image_1.png" alt="Hero Image" width={1440} height={500} />
-        </div>
-        <div>
-          <Image src="/image_1.png" alt="Hero Image" width={1440} height={500} />
-        </div>
-        <div>
-          <Image src="/image_1.png" alt="Hero Image" width={1440} height={500} />
-        </div>
-        <div>
-          <Image src="/image_1.png" alt="Hero Image" width={1440} height={500} />
-        </div>
-        <div>
-          <Image src="/image_1.png" alt="Hero Image" width={1440} height={500} />
-        </div>
-        <div>
-          <Image src="/image_1.png" alt="Hero Image" width={1440} height={500} />
-        </div>
-      </div>
-    </header>
+      </header>
   );
 }

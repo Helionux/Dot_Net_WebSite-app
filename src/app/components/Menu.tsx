@@ -12,7 +12,7 @@ export default function Menu() {
                 </div>
             </div>
 
-            <div className=" w-full flex flex-nowrap gap-3 ml-10 overflow-auto box-border">
+            <div className=" max-w-7xl flex flex-nowrap gap-3 ml-5 overflow-auto box-border">
                 <div className="mt-5 w-[190px]">
                     <div className="max-w-sm bg-[#512BD4]  h-[180px] rounded-2xl mt-20  p-6">
                         <p className="w-full h-full justify-center items-center flex font-['Space_Grotesk'] font-bold text-[20px] text-[#FFFFFF] ">

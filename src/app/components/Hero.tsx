@@ -36,7 +36,7 @@ export function Navbar() {
         {/* Right */}
         <div className="max-w-[600px]">
           <span className="border rounded-3xl p-1 leading-[120%] font-light font-lenx size-1.5 w-fit">Must-attend tech event for the Microsoft Ecosystem in Cameroon</span>
-          <h1 className="font-grotesk font-bold leading-[110%] tracking-[-8%] text-[44px] mt-0.5 ">
+          <h1 className="font-grotesk font-bold leading-[110%] tracking-[-8%] text-[44px] mt-2 ">
             .NET Community Conference 2025 | 8th edition
           </h1>
           <p className="font-light font-lenx leading-[140%] tracking-normal">
@@ -73,17 +73,17 @@ export function Navbar() {
         <div className=" flex justify-end">
           <div>
             <div className="">
-              <div className="bg-[#512BD4] w-[120px] h-[31px] rounded-[12px] px-[20px] py-[10px]  border-2 borer-[4px] border-[#FFFFFF] border-[4px]text-[16px] leanding-[160%] text-black tracking-[-4%] font-grotesk font-bold text-white items-center justify-center rotate-4 flex">
+              <div className="bg-[#512BD4] w-[120px] h-[31px] rounded-[12px] px-5 py-2.5  border-2 borer-[4px] border-[#FFFFFF] border-[4px]text-[16px] leanding-[160%] text-black tracking-[-4%] font-grotesk font-bold  items-center justify-center rotate-4 flex">
                 Time left
               </div>
             </div>
 
-            <div className="bg-[#E1A325] w-[340px] h-[65px] rounded-[12px] p-[20px] flex items-center ">
+            <div className="bg-[#E1A325] w-[340px] h-[65px] rounded-[12px] p-5 flex items-center ">
               <h1 className="text-[30px] font-grotesk font-bold leading-[110%] tracking-[-8%] text-center align-center text-[#2D2006]">2 Days : <span className="font-light text-[30px] leading-[160%]  tracking-[-1.55%]"> 12 min : 33 s</span></h1>
             </div>
 
             <div className="flex justify-end ">
-              <div className="bg-[#0A855F] w-[226px] h-[31px] text-white z-12 rounded-[12px] border border-2 border-white z-55 font-grotesk text-[16px] leading-[160%]tracking-normal items-center text-center justify-center -rotate-6 font-grotesk">Date <span className="font-bold">November 12, 2025</span></div>
+              <div className="bg-[#0A855F] w-[226px] h-[31px] text-white z-12 rounded-[12px] border-2 border-white text-[16px] leading-[160%]tracking-normal items-center text-center justify-center -rotate-6 font-grotesk">Date <span className="font-bold">November 12, 2025</span></div>
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@
 export default function Menu() {
     return (
         <div className="max-w-7xl mt-16">
-            <div className="ml-10 w-[450px] border">
+            <div className="ml-10 w-[450px] ">
                 <div className="w-full p-0">
                     <h1 className="font-grotesk text-[44px] text-[#1F143B] font-bold leading-[110%] tracking-[-8]">An immersive day in 
                         the world of .NET
@@ -12,9 +12,9 @@ export default function Menu() {
                 </div>
             </div>
 
-            <div className=" max-w-7xl flex flex-nowrap gap-3 ml-5 overflow-auto box-border">
+            <div className=" max-w-7xl flex flex-nowrap gap-3 ml-10 overflow-auto box-border">
                 <div className="mt-5 w-[190px] font-grotesk">
-                    <div className="max-w-sm bg-[#512BD4]  h-[180px] rounded-2xl mt-20  p-6">
+                    <div className="max-w-sm bg-[#512BD4]  h-[180px] rounded-2xl   p-6">
                         <p className="w-full h-full justify-center items-center flex font-bold text-[20px] text-[#FFFFFF] ">
                         Key
                         <span className=" text-[#ffffffa4]">
@@ -28,7 +28,7 @@ export default function Menu() {
                     </p>
                 </div>
                 <div className="mt-5 w-[190px] font-grotesk">
-                    <div className="max-w-sm bg-[#0A855F]  h-[180px] rounded-2xl mt-25 shadow-lg p-6">
+                    <div className="max-w-sm bg-[#0A855F]  h-[180px] rounded-2xl mt-5 shadow-lg p-6">
                         <p className="w-full h-full justify-center items-center flex  font-bold text-[20px] text-[#FFFFFF] ">
                         Conf
                         <span className=" text-[#ffffffa4]">
@@ -42,7 +42,7 @@ export default function Menu() {
                     </p>
                 </div>
                 <div className="mt-5 w-[190px] font-grotesk">
-                    <div className="max-w-sm bg-[#E1A325]  h-[180px] rounded-2xl mt-20  p-6">
+                    <div className="max-w-sm bg-[#E1A325]  h-[180px] rounded-2xl p-6">
                         <p className="w-full h-full justify-center items-center flex  font-bold text-[20px] text-[#2D2006] ">
                         Conf
                         <span className=" text-[#2d20068b]">
@@ -56,7 +56,7 @@ export default function Menu() {
                     </p>
                 </div>
                 <div className="mt-5 w-[190px] font-grotesk">
-                    <div className="max-w-sm bg-[#512BD4]  h-[180px] rounded-2xl mt-25 shadow-lg p-6">
+                    <div className="max-w-sm bg-[#512BD4]  h-[180px] rounded-2xl mt-5 shadow-lg p-6">
                         <p className="w-full h-full justify-center items-center flex font-bold text-[20px] text-[#FFFFFF] ">
                         Sponsor<span className=" text-[#ffffffa4] ml-1"> Time</span>
                         </p>
@@ -67,7 +67,7 @@ export default function Menu() {
                     </p>
                 </div>
                 <div className="mt-5 w-[190px] font-grotesk">
-                    <div className="max-w-sm bg-[#E1A325]  h-[180px] rounded-2xl mt-20  p-6">
+                    <div className="max-w-sm bg-[#E1A325]  h-[180px] rounded-2xl p-6">
                         <p className="w-full h-full justify-center items-center flex font-bold text-[20px] text-[#2D2006] ">
                         Key
                         <span className=" text-[#2d20068b]">
@@ -81,7 +81,7 @@ export default function Menu() {
                     </p>
                 </div>
                 <div className="mt-5 w-[190px] font-grotesk">
-                    <div className="max-w-sm bg-[#0A855F]  h-[180px] rounded-2xl mt-25 shadow-lg p-6">
+                    <div className="max-w-sm bg-[#0A855F]  h-[180px] rounded-2xl mt-5 shadow-lg p-6">
                         <p className="w-full h-full justify-center items-center flex font-bold text-[20px] text-[#FFFFFF] ">
                         Key
                         <span className=" text-[#ffffffa4]">

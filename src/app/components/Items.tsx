@@ -4,8 +4,8 @@ import { BookOpenText, HandFist, RefreshCcw, UserRound } from "lucide-react"
 
 export default function Items() { 
     return (
-        <div  className=" max-w-6xl mx-auto mt-20">
-            <div className=" items-center  w-full justify-between z-10 bg-white/95 px-4">
+        <div  className=" max-w-7xl mx-auto mt-20">
+            <div className=" items-center  w-full justify-between z-10 bg-white/95 px-8">
 
                 <div className="w-[528px] mb-12 ">
                     

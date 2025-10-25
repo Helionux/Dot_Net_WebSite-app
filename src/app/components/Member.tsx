@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Member() {
   return (
-    <div className="flex gap-2 w-full h-[362px] flex-nowrap overflow-auto mt-24 box-border">
+    <div className="flex gap-2 max-w-7xl h-[362px] flex-nowrap overflow-auto mt-24 box-border">
             <div className="w-[300px] h-full">
               <Image
                 src="/image_1.png"

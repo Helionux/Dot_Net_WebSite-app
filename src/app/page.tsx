@@ -1,3 +1,5 @@
+import Contributor from "./components/Contributor";
+import Footer from "./components/Footer";
 import  { Navbar } from "./components/Hero"
 import Items from "./components/Items";
 import Member from "./components/Member";
@@ -14,6 +16,8 @@ export default function Home() {
       <Items />
       <Menu />
       <Teams />
+      <Contributor />
+      <Footer />
     </main>
   );
 

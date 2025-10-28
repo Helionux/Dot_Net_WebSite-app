@@ -32,22 +32,23 @@ export default function Member() {
             </div>
             <div className="w-[300px] h-[362px]">
               <Image
-                src="/image_2.png"
+                src="/image_3.png"
                 alt="Members"
-                 width={300}
+                  width={300}
                 height={362}
                 className="w-full h-full rounded-3xl object-cover"
               />
             </div>
             <div className="w-[300px] h-[362px]">
               <Image
-                src="/image_3.jpg"
+                src="/image_3.png"
                 alt="Members"
-                 width={300}
+                  width={300}
                 height={362}
                 className="w-full h-full rounded-3xl object-cover"
               />
             </div>
+            
             <div className="w-[300px] h-[362px]">
               <Image
                 src="/image_6.png"

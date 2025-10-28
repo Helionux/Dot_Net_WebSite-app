@@ -1,28 +1,15 @@
+// import Image from "next/image";
 
-
-
-
-
-export default function Tractor() {
-    return (
-        <div className=" max-w-7xl mx-auto mt-10 mb-[100px]">
-            <div className="bg-[url('/image_4.png')] bg-cover bg-no-repeat bg-center w-full h-[400px] rounded-[44px] p-1">
-                {/* Contenu de votre page ici */}
-            </div>
-
-            <div className="items-center w-full justify-between z-10 bg-white/95 px-4">
-                <div className="w-full mb-12">
-                    <h2 className="text-[44px] font-grotesk">Contributors</h2>
-      
-                    <p className="font-lenx text-[15px] leading-[140%] font-light">
-      
-                        Thank you to everyone who makes this event possible.
-                    </p>
-                </div>
-                <div className="w-full mb-12">
-                </div>
-            </div>
-        </div>
-    )
-    
-}
+// export default function Expert() {
+//   return (
+//     <div className="m-3 w-wull h-440 bg-[#1F143B] mt-10 rounded-2xl">
+//       <div className="max-w-6xl mx-auto">
+//         <div className="font-['Space_Grotesk'] font-bold text-[25px] leading-[110%] tracking-[-0.08em]">
+//           <span className="text-[#FFFFFF]">Renowned experts to</span> <br />
+//           <span className="text-[#8B6BF8]">inspire you</span>
+//         </div>
+       
+//       </div>
+//     </div>
+//   );
+// }

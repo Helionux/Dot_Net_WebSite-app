@@ -5,7 +5,7 @@ import Items from "./components/Items";
 import Member from "./components/Member";
 import Menu from "./components/Menu";
 import Teams from "./components/Teams";
-import Tractor from "./components/Tractor";
+// import Tractor from "./components/Tractor";
 
 
 
@@ -17,8 +17,8 @@ export default function Home() {
       <Items />
       <Menu />
       <Teams />
+      {/* <Tractor /> */}
       <Contributor />
-      <Tractor />
       <Footer />
     </main>
   );

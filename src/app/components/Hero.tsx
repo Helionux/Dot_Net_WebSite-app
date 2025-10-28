@@ -5,7 +5,7 @@ import { ChevronDown } from "lucide-react";
 
 export function Navbar() {
   return (
-       <header className=" max-w-7xl mx-auto lg:px-8">
+       <header className=" max-w-7xl lg:px-8">
         <div className=" flex items-center w-full justify-between z-10 bg-white/95  ">
           {/* Logo (left) */}
           <div className=" ">
@@ -34,12 +34,12 @@ export function Navbar() {
 
       <div className="mt-16  grid grid-cols-2 items-center">
         {/* Right */}
-        <div className="max-w-[600px]">
-          <span className="border rounded-3xl p-1 leading-[120%] font-light font-lenx size-1.5 w-fit">Must-attend tech event for the Microsoft Ecosystem in Cameroon</span>
-          <h1 className="font-grotesk font-bold text-[44px] mt-2 ">
+        <div className="w-full">
+          <span className="border rounded-3xl p-1 font-light font-lenx ">Must-attend tech event for the Microsoft Ecosystem in Cameroon</span>
+          <h1 className="font-grotesk font-bold text-[40px]  mt-2 ">
             .NET Community Conference 2025 | 8th edition
           </h1>
-          <p className="font-light font-lenx leading-[140%] tracking-normal">
+          <p className="font-light font-lenx">
             Join hundreds of passionate developers for a day dedicated to the .NET ecosystem. Share your experiences and let&apos;s build the future of development together.
           </p>
 

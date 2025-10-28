@@ -9,7 +9,7 @@ export default function Items() {
 
                 <div className="w-[528px] mb-12 ">
                     
-                    <h2 className="text-[44px] font-bold font-grotesk">Why come, <span className="text-[#512BD4] font-bold text-[44px] leading-[110%] tracking-[-8%] ">why now?</span></h2>
+                    <h2 className="text-[44px] font-bold font-grotesk">Why come, <span className="text-[#512BD4] font-bold text-[44px] ">why now?</span></h2>
                     <p className="font-lenx text-[16px] leading-[140%] font-light">Much more than a conference, it is a learning experience, a chance to 
                     share and discover opportunities that can transform your career.</p>
                 </div>

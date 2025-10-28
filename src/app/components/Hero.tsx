@@ -36,7 +36,7 @@ export function Navbar() {
         {/* Right */}
         <div className="max-w-[600px]">
           <span className="border rounded-3xl p-1 leading-[120%] font-light font-lenx size-1.5 w-fit">Must-attend tech event for the Microsoft Ecosystem in Cameroon</span>
-          <h1 className="font-grotesk font-bold leading-[110%] tracking-[-8%] text-[44px] mt-2 ">
+          <h1 className="font-grotesk font-bold text-[44px] mt-2 ">
             .NET Community Conference 2025 | 8th edition
           </h1>
           <p className="font-light font-lenx leading-[140%] tracking-normal">

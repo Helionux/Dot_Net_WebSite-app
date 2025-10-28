@@ -247,7 +247,7 @@ export default function Teams() {
                             <div className=" h-60 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                                 <Image
                                 className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
-                                src="/jaures.png"
+                                src="/expert-6.png"
                                 alt="Hero Image"
                                 width={100}
                                 height={100}
@@ -264,7 +264,7 @@ export default function Teams() {
                             <div className="h-60 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                                 <Image
                                 className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
-                                src="/che.png"
+                                src="/expert-7.png"
                                 alt="Hero Image"
                                 width={100}
                                 height={100}
@@ -281,7 +281,7 @@ export default function Teams() {
                             <div className=" h-60 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                                 <Image
                                 className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
-                                src="/yvan.png"
+                                src="/expert-8.png"
                                 alt="Hero Image"
                                 width={100}
                                 height={100}
@@ -298,7 +298,7 @@ export default function Teams() {
                             <div className=" h-60 rounded-2xl mt-10 bg-[#FFFFFF] relative">
                                 <Image
                                 className="absolute -top-7 left-2 border-3 border-[#1F143B] h-15 w-15 rounded-2xl"
-                                src="/cedric.png"
+                                src="/expert-9.png"
                                 alt="Hero Image"
                                 width={100}
                                 height={100}

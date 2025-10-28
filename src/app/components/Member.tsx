@@ -32,7 +32,7 @@ export default function Member() {
             </div>
             <div className="w-[300px] h-[362px]">
               <Image
-                src="/image_5.png"
+                src="/image_2.png"
                 alt="Members"
                  width={300}
                 height={362}
@@ -41,7 +41,7 @@ export default function Member() {
             </div>
             <div className="w-[300px] h-[362px]">
               <Image
-                src="/image_6.jpg"
+                src="/image_3.jpg"
                 alt="Members"
                  width={300}
                 height={362}

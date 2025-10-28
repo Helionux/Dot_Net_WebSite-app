@@ -187,7 +187,7 @@ export default function Teams() {
                         </div>
                         </div>
                         {/*  deuxieme div */}
-                        <div className="relative bg-[url(/imgbag.png)] bg-cover bg-no-repeat bg-center max-w-6xl mx-auto h-[558px] rounded-2xl mt-10">
+                        <div className="relative bg-[url(/expert-5.png)] bg-cover bg-no-repeat bg-center max-w-6xl mx-auto h-[558px] rounded-2xl mt-10">
                         <div className="absolute bottom-0 left-0 m-6 w-[560px] h-[290px] rounded-[18px] bg-[#FFFFFF] shadow-lg  items-center justify-center">
                             <div className="w-[500px] h-[133px] mt-5 m-5">
                             <h1 className="font-['Space_Grotesk'] font-black leading-none text-[28px] ">

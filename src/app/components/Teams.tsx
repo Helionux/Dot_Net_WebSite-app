@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Teams() {
     return (
         <div className="px-2.5">
-            <div className="max-w-7xl bg-[#1F143B] border-2 border-[#8B6BF8] mx-auto py-20 px-8 rounded-[44px] space-y-11">
+            <div className="max-w-7xl bg-[#1F143B] mx-auto py-20 px-8 rounded-[44px] space-y-11">
                     <div className="max-w-[353px]">
                         <h2 className="font-grotesk text-[36px] text-[#FFFFFF] font-bold ">Renowned experts <span className="text-[#8B6BF8]">to inspire you</span></h2>
                     </div>

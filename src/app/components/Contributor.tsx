@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Contributor() {
   return (
-    <div className=" max-w-7xl mx-auto p-4 mt-10 mb-[100px]">
+    <div className=" max-w-7xl mx-auto px-10 mt-10 mb-[100px]">
       <div className="items-center w-full justify-between z-10 bg-white/95 ">
         <div className="mb-12">
           <h2 className="text-[44px] font-black font-grotesk">Contributors</h2>
@@ -11,9 +11,8 @@ export default function Contributor() {
             Thank you to everyone who makes this event possible.
           </p>
         </div>
-        <div
-          className="justify-center mt-5 grid grid-cols-4 divide-x text-justify gap-2 px-4 *:pr-6 pb-4 mb-2 border-b">
-          <div className="">
+        <div className="justify-center mt-5 grid grid-cols-4 divide-x text-justify  pb-4 mb-2 border-b">
+          <div className=" pr-4">
             <div className="">
               <Image
                 className=""
@@ -26,8 +25,8 @@ export default function Contributor() {
               <Link href="/" className="underline font-bold">See more</Link>
             </div>
           </div>
-          <div className="">
-            <div className="">
+          <div className="pr-4 pl-4">
+            <div>
               <Image
                 className=""
                 src="/logo_2.png"
@@ -39,7 +38,7 @@ export default function Contributor() {
               <Link href="/" className="underline font-bold">See more</Link>
             </div>
           </div>
-          <div className="">
+          <div className="pr-4 pl-4">
             <div className="">
               <Image
                 className=""
@@ -52,7 +51,7 @@ export default function Contributor() {
               <Link href="/" className="underline font-bold">See more</Link>
             </div>
           </div>
-          <div className="">
+          <div className="pl-4">
             <div className="">
               <Image
                 className=""
@@ -67,8 +66,8 @@ export default function Contributor() {
           </div>
         </div>
 
-          <div className=" justify-center mt-4 grid grid-cols-4 px-4 divide-x text-justify gap-2">
-            <div className="">
+          <div className=" justify-center mt-4 grid grid-cols-4 divide-x text-justify">
+            <div className="pr-4">
             <div className="">
               <Image
                 className=""
@@ -81,7 +80,7 @@ export default function Contributor() {
               <Link href="/" className="underline font-bold">See more</Link>
             </div>
           </div>
-          <div className="">
+          <div className="pr-4 pl-4">
             <div className="">
               <Image
                 className=""
@@ -94,7 +93,7 @@ export default function Contributor() {
               <Link href="/" className="underline font-bold">See more</Link>
             </div>
           </div>
-          <div className="">
+          <div className="pr-4 pl-4">
             <div className="">
               <Image
                 className=""
@@ -107,7 +106,7 @@ export default function Contributor() {
               <Link href="/" className="underline font-bold">See more</Link>
             </div>
           </div>
-          <div className="">
+          <div className="pl-4">
             <div className="">
               <Image
                 className=""

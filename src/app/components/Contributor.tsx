@@ -116,7 +116,7 @@ export default function Contributor() {
               </div>
             </div>
             </div>
-          </div>
+        </div>
 
       </div>
     </div>

@@ -1,20 +1,78 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 
 
 export default function Footer() {
   return (
     <footer className="max-w-7xl mx-auto mt-20 px-2.5">
-      <div className="grid grid-cols-2">
-        <div>
-          <Image src="/logo.png" width={100} height={100} alt="Logo" />
+      <div className="flex gap-[98.87px]">
+        <div className="max-w-[300px] border">
+          <Image src="/logo.png" width={100} height={100} alt="Logo" className="w-[72] "/>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <div className="grid grid-cols-4">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+        <div className="flex gap-20">
+          <div className="">
+            <span className="font-bold font-grotesk">Navigation</span>
+            <ul className="font-lenx text-[14px] space-y-2 font-light mt-4">
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <Link href="/">Events</Link>
+              </li>
+              <li>
+                <Link href="/">About us</Link>
+              </li>
+              <li>
+                <Link href="/">Projects</Link>
+              </li>
+              <li>
+                <Link href="/">Resources</Link>
+              </li>
+            </ul>
+          </div>
+          <div className="">
+            <span className="font-bold font-grotesk">Contacts</span>
+            <ul className="font-lenx text-[14px] space-y-2 font-light mt-4">
+              <li>
+                <Link href=" ">Douala, Cameroon</Link>
+              </li>
+              <li>
+                <Link href=" ">dotnetcameroon@outlook.com</Link>
+              </li>
+              <li>
+                <Link href=" ">+237 699254549, +237 653953452</Link>
+              </li>
+            </ul>
+          </div>
+          <div className="">
+            <span className="font-bold font-grotesk">Social</span>
+            <ul className="font-lenx text-[14px] space-y-2 font-light mt-4">
+              <li>
+                <Link href="">Discord</Link>
+              </li>
+              <li>
+                <Link href="">WhatsApp</Link>
+              </li>
+              <li>
+                <Link href="">LinkedIn</Link>
+              </li>
+              <li>
+                <Link href="">Telegram</Link>
+              </li>
+              <li>
+                <Link href="">GitHub</Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div className="flex flex-col gap-4 items-center font-grotesk">
+              <Button className="bg-[#0A855F] w-[195px] h-[50px] font-bold font-grotesk text-[16px] leading-[160%]">Contact-us</Button>
+              <Button variant={'outline'} className="w-[195px] h-[50px] font-bold font-grotesk text-[16px] leading-[160%]">Share event</Button>      
+          </div>
+          </div>
         </div>
       </div>
       <div className="border-t border-[#DDDDDD]">

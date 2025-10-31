@@ -3,12 +3,12 @@ import Image from "next/image"
 export default function About() {
     return (
       <div className="px-2.5">
-            <div className="max-w-7xl mx-auto">
+            <div className=" mx-auto">
                 <div className=" p-8">
                     <div className="max-w-[403px]">
-                        <h1 className="text-[44px] font-bold ">They were there <span className="text-[#512BD4]"> last year.</span></h1>
+                        <h1 className="text-[44px] font-bold leading-[110%] -tracking-[8%] font-grotesk ">They were there <span className="text-[#512BD4]"> last year.</span></h1>
                     </div>
-                    <div className=" mt-6 grid grid-cols-4 gap-6">
+                    <div className="max-w-7xl mt-6 grid grid-cols-4 gap-6 font-lenx font-light">
                         <div>
                             <p>
                                 &quot;An incredible experience! The workshops on .NET 8 and applied AI really helped me improve my skills. Well done to the team for the flawless organization.&quot;

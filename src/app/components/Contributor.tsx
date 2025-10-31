@@ -23,7 +23,7 @@ export default function Contributor() {
                   width={40}
                   height={40}
                 />
-                <p className="font-lenx font-light ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do . </p>
+                <p className="font-lenx font-light mt-2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. </p>
                 <Link href="/" className="underline font-bold">See more</Link>
             </div>
             <div className=" border pl-4">
@@ -35,7 +35,7 @@ export default function Contributor() {
                   width={115}
                   height={31}
                 />
-                <p className="font-lenx font-light ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do . </p>
+                <p className="font-lenx font-light mt-2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. </p>
                 <Link href="/" className="underline font-bold">See more</Link>
               </div>
             </div>
@@ -48,7 +48,7 @@ export default function Contributor() {
                   width={39}
                   height={40}
                 />
-                <p className="font-lenx font-light ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do . </p>
+                <p className="font-lenx font-light mt-2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. </p>
                 <Link href="/" className="underline font-bold">See more</Link>
               </div>
             </div>
@@ -61,7 +61,7 @@ export default function Contributor() {
                   width={168}
                   height={40}
                 />
-                <p className="font-lenx font-light ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do . </p>
+                <p className="font-lenx font-light mt-2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. </p>
                 <Link href="/" className="underline font-bold">See more</Link>
               </div>
             </div>
@@ -76,7 +76,7 @@ export default function Contributor() {
                   width={135}
                   height={15}
                 />
-                <p className="font-lenx font-light ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do . </p>
+                <p className="font-lenx font-light mt-2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. </p>
                 <Link href="/" className="underline font-bold font-grotesk">See more</Link>
             </div>
             <div className=" border pl-4">
@@ -87,7 +87,7 @@ export default function Contributor() {
                   width={63}
                   height={40}
                 />
-                <p className="font-lenx font-light ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do . </p>
+                <p className="font-lenx font-light mt-2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. </p>
                 <Link href="/" className="underline font-bold">See more</Link>
               </div>
             </div>
@@ -99,7 +99,7 @@ export default function Contributor() {
                   width={43}
                   height={40}
                 />
-                <p className="font-lenx font-light tracking-[0%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do . </p>
+                <p className="font-lenx font-light tracking-[0%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. </p>
                 <Link href="/" className="underline font-bold">See more</Link>
               </div>
             </div>
@@ -111,7 +111,7 @@ export default function Contributor() {
                   width={115}
                   height={31}
                 />
-                <p className="font-lenx font-light ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do . </p>
+                <p className="font-lenx font-light ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. </p>
                 <Link href="/" className="underline font-bold">See more</Link>
               </div>
             </div>

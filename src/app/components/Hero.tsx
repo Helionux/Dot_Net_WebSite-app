@@ -32,10 +32,10 @@ export function Hero() {
 
             {/* Button */}
             <div className="gap-3 flex">
-              <Button className="mt-8 bg-[#0A855F] text-white hover:bg-[#4219b8] px-[24px] py-[14px] w-[195px] h-[54px] rounded-[13px] font-grotesk font-bold text-[13px] leading-[160%] tracking-normal text-center ">
+              <Button className="mt-8 bg-[#0A855F] text-white hover:bg-[#4219b8] px-6 py-3.5 w-[195px] h-[54px] rounded-[13px] font-grotesk font-bold text-[13px] leading-[160%] tracking-normal text-center ">
                 Subscribe to event
               </Button>
-              <Button className="mt-8 bg-[#FFFFFF] text-black hover:bg-[#FFFFFF] border border-[#DDDDDD] px-[24px] py-[14px] w-[140px] h-[54px] rounded-[13px] font-grotesk font-bold text-[13px] gap-[10px] leading-[160%] tracking-normal text-center ">
+              <Button className="mt-8 bg-[#FFFFFF] text-black hover:bg-[#FFFFFF] border border-[#DDDDDD] px-6 py-3.5 w-[140px] h-[54px] rounded-[13px] font-grotesk font-bold text-[13px] gap-2.5 leading-[160%] tracking-normal text-center ">
                 Share event
               </Button>
             </div>
@@ -44,7 +44,7 @@ export function Hero() {
           <div className=" flex justify-end">
             <div>
               <div className="">
-                <div className="bg-[#512BD4] w-[120px] h-[31px] rounded-[12px] px-5 py-2.5  border-2 borer-[4px] border-[#FFFFFF] border-[4px]text-[16px] leanding-[160%] text-black tracking-[-4%] font-grotesk font-bold  items-center justify-center rotate-4 flex">
+                <div className="bg-[#512BD4] w-[120px] h-[31px] rounded-[12px] px-5 py-2.5  border-2 borer-[4px] border-[#FFFFFF] border-[4px]text-[16px] leanding-[160%] text-white tracking-[-4%] font-grotesk font-bold  items-center justify-center rotate-4 flex">
                   Time left
                 </div>
               </div>

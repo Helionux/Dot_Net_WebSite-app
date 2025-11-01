@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function About() {
     return (
-      <div className="px-2.5">
+      <div className="px-2.5 mt-10">
             <div className=" mx-auto">
                 <div className=" p-8">
                     <div className="max-w-[403px]">

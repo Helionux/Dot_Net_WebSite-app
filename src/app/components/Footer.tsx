@@ -6,14 +6,14 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="max-w-7xl mx-auto mt-20 px-2.5">
-      <div className="flex gap-[98.87px]">
-        <div className="max-w-[300px] border">
-          <Image src="/logo.png" width={100} height={100} alt="Logo" className="w-[72] "/>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <footer className="w-full mx-auto mt-20 px-2.5">
+      <div className="flex gap-[98.87px] justify-center">
+        <div className="border">
+          <Image src="/logo.png" width={100} height={100} alt="Logo"/>
+          <p className="font-lenx font-light leading-[120%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <div className="flex gap-20">
-          <div className="">
+        <div className="flex gap-20 mb-[70px]">
+          <div className=" mt-7">
             <span className="font-bold font-grotesk">Navigation</span>
             <ul className="font-lenx text-[14px] space-y-2 font-light mt-4">
               <li>
@@ -33,7 +33,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="">
+          <div className="border shrink-0 mt-7">
             <span className="font-bold font-grotesk">Contacts</span>
             <ul className="font-lenx text-[14px] space-y-2 font-light mt-4">
               <li>
@@ -47,7 +47,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="">
+          <div className=" mt-7">
             <span className="font-bold font-grotesk">Social</span>
             <ul className="font-lenx text-[14px] space-y-2 font-light mt-4">
               <li>
@@ -68,14 +68,14 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <div className="flex flex-col gap-4 items-center font-grotesk">
+            <div className="flex flex-col gap-4 items-center  font-grotesk">
               <Button className="bg-[#0A855F] w-[195px] h-[50px] font-bold font-grotesk text-[16px] leading-[160%]">Contact-us</Button>
               <Button variant={'outline'} className="w-[195px] h-[50px] font-bold font-grotesk text-[16px] leading-[160%]">Share event</Button>      
           </div>
           </div>
         </div>
       </div>
-      <div className="border-t border-[#DDDDDD]">
+      <div className="border-t p-5 items-center justify-center flex border-[#DDDDDD]">
         <p>
             Copyright © .NET Cameroun 2025 | Designed by<span className="font-bold "> Lagence YOP</span>
         </p>

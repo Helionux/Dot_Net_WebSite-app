@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import { clsx } from 'clsx';
 
 export default function Contributor() {
   return (
-    <div className=" max-w-7xl mx-auto px-10 mt-10 mb-[100px]">
+    <div className=" max-w-7xl mx-auto px-10 mt-10">
       <div className="items-center w-full justify-between z-10 bg-white/95 ">
         <div className="">
           <h2 className="text-[44px] font-black font-grotesk">Contributors</h2>
@@ -26,7 +27,7 @@ export default function Contributor() {
                 <p className="font-lenx font-light mt-2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. </p>
                 <Link href="/" className="underline font-bold">See more</Link>
             </div>
-            <div className=" border pl-4">
+            <div className="pl-4">
               <div>
                 <Image
                   className=""
@@ -68,9 +69,9 @@ export default function Contributor() {
           </div>
 
           <div className=" justify-center grid grid-cols-4 divide-x *:pr-4">  
-            <div className="border">
+            <div className="">
                 <Image
-                  className=""
+                  className="mt-5"
                   src="/logo_5.png"
                   alt="Hero Image"
                   width={135}
@@ -79,11 +80,12 @@ export default function Contributor() {
                 <p className="font-lenx font-light mt-2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. </p>
                 <Link href="/" className="underline font-bold font-grotesk">See more</Link>
             </div>
-            <div className=" border pl-4">
+            <div className="pl-4">
               <div className="">
                 <Image
                   src="/logo_6.png"
                   alt="Hero Image"
+                  className=""
                   width={63}
                   height={40}
                 />
@@ -91,9 +93,10 @@ export default function Contributor() {
                 <Link href="/" className="underline font-bold">See more</Link>
               </div>
             </div>
-            <div className=" border pl-4">
+            <div className="pl-4">
               <div className="">
                 <Image
+                  className="mt-2"
                   src="/logo_7.png"
                   alt="Hero Image"
                   width={43}
@@ -103,9 +106,10 @@ export default function Contributor() {
                 <Link href="/" className="underline font-bold">See more</Link>
               </div>
             </div>
-            <div className="pl-4 border">
+            <div className="pl-4 ">
               <div className="">
                 <Image
+                  className="mt-3"
                   src="/logo_2.png"
                   alt="Hero Image"
                   width={115}

@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="w-full mx-auto mt-20 px-2.5">
       <div className="flex gap-[98.87px] justify-center">
-        <div className="border">
+        <div className="">
           <Image src="/logo.png" width={100} height={100} alt="Logo"/>
           <p className="font-lenx font-light leading-[120%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
@@ -33,7 +33,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="border shrink-0 mt-7">
+          <div className="shrink-0 mt-7">
             <span className="font-bold font-grotesk">Contacts</span>
             <ul className="font-lenx text-[14px] space-y-2 font-light mt-4">
               <li>

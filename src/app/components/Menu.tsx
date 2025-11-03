@@ -27,7 +27,7 @@ export default function Menu() {
                             Doriane Mangamtcheuth Analyste M365 | Power Platform | Microsoft Dynamics 365
                         </p>
                     </div>
-                    <div className="w-[270px] shrink-0 font-grotesk">
+                    <div className="w-[270px] shrink-0 font-grotesk mt-5">
                         <div className="max-w-sm bg-[#0A855F]  h-[250px] rounded-2xl shadow-lg p-6">
                             <p className="w-full h-full justify-center items-center flex  font-bold text-[34px] text-[#FFFFFF] ">
                             Conf
@@ -55,7 +55,7 @@ export default function Menu() {
                             Doriane Mangamtcheuth Analyste M365 | Power Platform | Microsoft Dynamics 365
                         </p>
                     </div>
-                    <div className="w-[270px] shrink-0 font-grotesk">
+                    <div className="w-[270px] shrink-0 font-grotesk mt-5">
                         <div className="max-w-sm bg-[#512BD4]  h-[250px] rounded-2xl shadow-lg p-6">
                             <p className="w-full h-full justify-center items-center flex font-bold text-[34px] text-[#FFFFFF] ">
                             Sponsor<span className=" text-[#ffffffa4] ml-1"> Time</span>
@@ -80,7 +80,7 @@ export default function Menu() {
                             Doriane Mangamtcheuth Analyste M365 | Power Platform | Microsoft Dynamics 365
                         </p>
                     </div>
-                    <div className="w-[270px] shrink-0 font-grotesk">
+                    <div className="w-[270px] shrink-0 font-grotesk mt-5">
                         <div className="max-w-sm bg-[#0A855F]  h-[250px] rounded-2xl shadow-lg p-6">
                             <p className="w-full h-full justify-center items-center flex font-bold text-[34px] text-[#FFFFFF] ">
                             Key

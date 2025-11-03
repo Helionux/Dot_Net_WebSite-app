@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { clsx } from 'clsx';
-
 export default function Contributor() {
   return (
     <div className=" max-w-7xl mx-auto px-10 mt-10">

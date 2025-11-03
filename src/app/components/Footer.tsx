@@ -6,13 +6,15 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="w-full mx-auto mt-20 px-2.5">
-      <div className="flex gap-[98.87px] justify-center">
-        <div className="">
+    <footer className="max-w-7xl mx-auto mt-20 lg:px-8 divide-y">
+      <div className="flex gap-[98px]">
+        <div className="max-w-[300px]">
+          <figure>
           <Image src="/logo.png" width={100} height={100} alt="Logo"/>
-          <p className="font-lenx font-light leading-[120%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </figure>
+          <p className="font-lenx font-light leading-[120%] ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <div className="flex gap-20 mb-[70px]">
+        <div className="flex gap-20 mb-[71px]">
           <div className=" mt-7">
             <span className="font-bold font-grotesk">Navigation</span>
             <ul className="font-lenx text-[14px] space-y-2 font-light mt-4">
@@ -33,7 +35,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="shrink-0 mt-7">
+          <div className=" mt-7 shrink-0">
             <span className="font-bold font-grotesk">Contacts</span>
             <ul className="font-lenx text-[14px] space-y-2 font-light mt-4">
               <li>
@@ -47,6 +49,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+
           <div className=" mt-7">
             <span className="font-bold font-grotesk">Social</span>
             <ul className="font-lenx text-[14px] space-y-2 font-light mt-4">
@@ -75,7 +78,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="border-t p-5 items-center justify-center flex border-[#DDDDDD]">
+      <div className="p-5 items-center justify-center flex border-[#DDDDDD]">
         <p>
             Copyright © .NET Cameroun 2025 | Designed by<span className="font-bold "> Lagence YOP</span>
         </p>

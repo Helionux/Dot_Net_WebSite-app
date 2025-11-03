@@ -12,12 +12,12 @@ export default function Footer() {
           <figure>
           <Image src="/logo.png" width={100} height={100} alt="Logo"/>
           </figure>
-          <p className="font-lenx font-light leading-[120%] ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p className="font-lenx text-[#575362] text-[14px] font-light leading-[120%] ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div className="flex gap-20 mb-[71px]">
           <div className=" mt-7">
             <span className="font-bold font-grotesk">Navigation</span>
-            <ul className="font-lenx text-[14px] space-y-2 font-light mt-4">
+            <ul className="font-lenx text-[14px] text-[#575362] space-y-2 font-light mt-4">
               <li>
                 <Link href="/">Home</Link>
               </li>
@@ -37,7 +37,7 @@ export default function Footer() {
           </div>
           <div className=" mt-7 shrink-0">
             <span className="font-bold font-grotesk">Contacts</span>
-            <ul className="font-lenx text-[14px] space-y-2 font-light mt-4">
+            <ul className="font-lenx text-[14px] text-[#575362] space-y-2 font-light mt-4">
               <li>
                 <Link href=" ">Douala, Cameroon</Link>
               </li>
@@ -52,7 +52,7 @@ export default function Footer() {
 
           <div className=" mt-7">
             <span className="font-bold font-grotesk">Social</span>
-            <ul className="font-lenx text-[14px] space-y-2 font-light mt-4">
+            <ul className="font-lenx text-[14px] text-[#575362] space-y-2 font-light mt-4">
               <li>
                 <Link href="">Discord</Link>
               </li>
@@ -79,7 +79,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="p-5 items-center justify-center flex border-[#DDDDDD]">
-        <p>
+        <p className="text-[#575362] text-[14px] leading-[160%] ">
             Copyright © .NET Cameroun 2025 | Designed by<span className="font-bold "> Lagence YOP</span>
         </p>
       </div>

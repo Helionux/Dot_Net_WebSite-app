@@ -25,7 +25,7 @@ export default function Teams() {
                                     <div className="p-5">
                                         <h4 className=" font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Jean-Marc ONANA</h4>
                                         <p className="font-['Lexend']  text-[#404040] font-light text-[14px] border-b border-[#1F143B] pb-3">Principal Solution Architect</p>
-                                        <ul className=" text-[15px] px-3 list-inside p-3 list-disc">
+                                        <ul className=" text-[16px] font-lenx text-[#404040] font-light px-3 list-inside p-3 list-disc">
                                             <li>15+ years of .NET experience</li>
                                             <li>Microsoft MVP for 8 years</li>
                                             <li>Author of 3 books on software architecture</li>
@@ -49,7 +49,7 @@ export default function Teams() {
                                     <div className="p-5">
                                         <h4 className=" font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Thomas NKUISSI</h4>
                                         <p className="font-['Lexend']  text-[#404040] font-light text-[14px] border-b border-[#1F143B] pb-3">Principal Solution Architect</p>
-                                        <ul className=" text-[15px] px-3 list-inside p-3 list-disc">
+                                        <ul className=" text-[16px] font-lenx text-[#404040] font-light px-3 list-inside p-3 list-disc">
                                             <li>15+ years of .NET experience</li>
                                             <li>Microsoft MVP for 8 years</li>
                                             <li>Author of 3 books on software architecture</li>
@@ -73,7 +73,7 @@ export default function Teams() {
                                     <div className="p-5">
                                         <h4 className=" font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Thomas NKUISSI</h4>
                                         <p className="font-['Lexend']  text-[#404040] font-light text-[14px] border-b border-[#1F143B] pb-3">Principal Solution Architect</p>
-                                        <ul className=" text-[15px] px-3 list-inside p-3 list-disc">
+                                        <ul className=" text-[16px] font-lenx text-[#404040] font-light px-3 list-inside p-3 list-disc">
                                             <li>15+ years of .NET experience</li>
                                             <li>Microsoft MVP for 8 years</li>
                                             <li>Author of 3 books on software architecture</li>
@@ -97,7 +97,7 @@ export default function Teams() {
                                     <div className="p-5">
                                         <h4 className=" font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Paul MBARGA</h4>
                                         <p className="font-['Lexend']  text-[#404040] font-light text-[14px] border-b border-[#1F143B] pb-3">Principal Solution Architect</p>
-                                        <ul className=" text-[15px] px-3 list-inside p-3 list-disc">
+                                        <ul className=" text-[16px] font-lenx text-[#404040] font-light px-3 list-inside p-3 list-disc">
                                             <li>15+ years of .NET experience</li>
                                             <li>Microsoft MVP for 8 years</li>
                                             <li>Author of 3 books on software architecture</li>
@@ -121,7 +121,7 @@ export default function Teams() {
                                     <div className="p-5">
                                         <h4 className=" font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Georges FOTSO</h4>
                                         <p className="font-['Lexend']  text-[#404040] font-light text-[14px] border-b border-[#1F143B] pb-3">Principal Solution Architect</p>
-                                        <ul className=" text-[15px] px-3 list-inside p-3 list-disc">
+                                        <ul className=" text-[16px] font-lenx text-[#404040] font-light px-3 list-inside p-3 list-disc">
                                             <li>15+ years of .NET experience</li>
                                             <li>Microsoft MVP for 8 years</li>
                                             <li>Author of 3 books on software architecture</li>
@@ -145,7 +145,7 @@ export default function Teams() {
                                     <div className="p-5">
                                         <h4 className=" font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Paul MBARGA</h4>
                                         <p className="font-['Lexend']  text-[#404040] font-light text-[14px] border-b border-[#1F143B] pb-3">Principal Solution Architect</p>
-                                        <ul className=" text-[15px] px-3 list-inside p-3 list-disc">
+                                        <ul className=" text-[16px] font-lenx text-[#404040] font-light px-3 list-inside p-3 list-disc">
                                             <li>15+ years of .NET experience</li>
                                             <li>Microsoft MVP for 8 years</li>
                                             <li>Author of 3 books on software architecture</li>
@@ -169,7 +169,7 @@ export default function Teams() {
                                     <div className="p-5">
                                         <h4 className=" font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Jean-Marc ONANA</h4>
                                         <p className="font-['Lexend']  text-[#404040] font-light text-[14px] border-b border-[#1F143B] pb-3">Principal Solution Architect</p>
-                                        <ul className=" text-[15px] px-3 list-inside p-3 list-disc">
+                                        <ul className=" text-[16px] font-lenx text-[#404040] font-light px-3 list-inside p-3 list-disc">
                                             <li>15+ years of .NET experience</li>
                                             <li>Microsoft MVP for 8 years</li>
                                             <li>Author of 3 books on software architecture</li>
@@ -193,7 +193,7 @@ export default function Teams() {
                                     <div className="p-5">
                                         <h4 className=" font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Thomas NKUISSI</h4>
                                         <p className="font-['Lexend']  text-[#404040] font-light text-[14px] border-b border-[#1F143B] pb-3">Principal Solution Architect</p>
-                                        <ul className=" text-[15px] px-3 list-inside p-3 list-disc">
+                                        <ul className=" text-[16px] font-lenx text-[#404040] font-light px-3 list-inside p-3 list-disc">
                                             <li>15+ years of .NET experience</li>
                                             <li>Microsoft MVP for 8 years</li>
                                             <li>Author of 3 books on software architecture</li>
@@ -214,13 +214,13 @@ export default function Teams() {
                                         
                                         Must-attend tech event </span>for the Microsoft Ecosystem in Cameroon
                                     </h2>
-                                    <p className="font-['Lexend'] text-Gray font-light text-[15px] leading-none">
+                                    <p className="font-['Lexend'] text-[#575362] text-Gray font-light text-[15px] leading-none">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                         eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                     </p>
                                     </div>
                                     <div className="w-[500px] ">
-                                    <div className="flex flex-wrap gap-2 mt-4">
+                                    <div className="flex flex-wrap gap-2 text-[#575362] mt-4">
                                         
                                         <span className="text-[14px] font-['Lexend'] border p-2.5 rounded-[13px] font-light">
                                             Subscribe to event

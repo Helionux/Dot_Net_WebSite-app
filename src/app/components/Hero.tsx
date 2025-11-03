@@ -1,6 +1,54 @@
-import { Button } from "@/components/ui/button";
+"use client"
+
+import { Button } from '@/components/ui/button';
+import { useState, useEffect, useCallback, useMemo } from 'react';
+
+interface TimeRemaining {
+  days: number;
+  hours: number;
+  minutes: number;
+  seconds: number;
+}
 
 export function Hero() {
+  
+  const targetDate = useMemo(() =>  new Date("2025-11-12T00:00:00").getTime(), [])
+  const calculateTimeRemaining = useCallback((): TimeRemaining => {
+    const now = new Date().getTime();
+    const distance = targetDate - now;
+    
+    if (distance <= 0) {
+      return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+    }
+   
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    return { days, hours, minutes, seconds };
+  }, [targetDate]);
+
+  const [timeLeft, setTimeLeft] = useState<TimeRemaining>(calculateTimeRemaining());
+
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true)
+    const timer = setInterval(() => {
+      setTimeLeft(calculateTimeRemaining());
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, [calculateTimeRemaining]);
+
+
+  if (!isClient) {
+    return null;
+  }
+
+
+
   return (
        <section className=" max-w-7xl mx-auto lg:px-8">
         <div className="mt-16  grid grid-cols-2 items-center">
@@ -49,12 +97,12 @@ export function Hero() {
                 </div>
               </div>
 
-              <div className="bg-[#E1A325] w-[340px] h-[65px] rounded-[12px] p-5 flex items-center ">
-                <h1 className="text-[30px] font-grotesk font-bold leading-[110%] tracking-[-8%] text-center align-center text-[#2D2006]">2 Days : <span className="font-light text-[30px] leading-[160%]  tracking-[-1.55%]"> 12 min : 33 s</span></h1>
+              <div className="bg-[#E1A325] w-[440px] h-[65px] rounded-[12px] p-5 flex items-center ">
+                <h1 className="text-[30px] font-grotesk font-bold leading-[110%] tracking-[-8%] text-center align-center text-[#2D2006]">{timeLeft.days} Days : <span className="font-light text-[20px] leading-[160%]  tracking-[-1.55%]">{timeLeft.hours} hours : {timeLeft.minutes} min : {timeLeft.seconds} s</span></h1>
               </div>
 
               <div className="flex justify-end ">
-                <div className="bg-[#0A855F] w-[226px] h-[31px] text-white z-12 rounded-[12px] border-2 border-white text-[16px] leading-[160%]tracking-normal items-center text-center justify-center -rotate-6 font-grotesk">Date <span className="font-bold">November 12, 2025</span></div>
+                <div className="bg-[#0A855F] w-[226px] font- h-[31px] text-white z-12 rounded-[12px] border-2 border-white text-[16px] leading-[160%]tracking-normal items-center text-center justify-center -rotate-6 font-grotesk">Date <span className="font-bold">November 12, 2025</span></div>
               </div>
             </div>
           </div>

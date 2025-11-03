@@ -38,10 +38,18 @@ export default function About() {
                     </div>
                 </div>
                 <div className="grid grid-cols-4 gap-3 ">
-                    <Image src="/image_3.png" width={100} height={100} alt="Teams" className="w-full h-full object-cover rounded-[18px]"/>
-                    <Image src="/image_8.jpg" width={100} height={100} alt="Teams" className="w-full h-full object-cover rounded-[18px]"/>
-                    <Image src="/image_1.png" width={100} height={100} alt="Teams" className="w-full h-full object-cover rounded-[18px]"/>
-                    <Image src="/image_7.jpg" width={100} height={100} alt="Teams" className="w-full h-full object-cover rounded-[18px]"/>
+                    <figure>
+                        <Image src="/image_3.png" width={100} height={100} alt="Teams" className="w-full h-full object-cover rounded-[18px]"/>
+                    </figure>
+                    <figure>
+                        <Image src="/image_8.jpg" width={100} height={100} alt="Teams" className="w-full h-full object-cover rounded-[18px]"/>
+                    </figure>
+                    <figure>
+                        <Image src="/image_1.png" width={100} height={100} alt="Teams" className="w-full h-full object-cover rounded-[18px]"/>
+                    </figure>
+                    <figure>
+                        <Image src="/image_7.jpg" width={100} height={100} alt="Teams" className="w-full h-full object-cover rounded-[18px]"/>
+                    </figure>   
                 </div>
                 <div className="grid grid-cols-3 gap-3 mt-3 h-[280x]">
                     <Image src="/image_9.jpg" width={100} height={100} alt="Teams" className="w-full object-cover rounded-[18px]"/>

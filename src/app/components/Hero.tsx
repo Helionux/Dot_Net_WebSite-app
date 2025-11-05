@@ -31,10 +31,8 @@ export function Hero() {
 
   const [timeLeft, setTimeLeft] = useState<TimeRemaining>(calculateTimeRemaining());
 
-  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    setIsClient(true)
     const timer = setInterval(() => {
       setTimeLeft(calculateTimeRemaining());
     }, 1000);
@@ -43,18 +41,14 @@ export function Hero() {
   }, [calculateTimeRemaining]);
 
 
-  if (!isClient) {
-    return null;
-  }
-
 
 
   return (
-       <section className=" max-w-7xl mx-auto lg:px-8">
-        <div className="mt-16  grid grid-cols-2 items-center">
+       <section className="max-w-7xl mx-auto lg:px-8 px-3">
+        <div className="mt-16  grid grid-cols-1 lg:grid-cols-2 items-center gap-y-6">
           {/* Right */}
-          <div className="w-full">
-            <span className="border rounded-3xl p-1 font-light font-lenx ">Must-attend tech event for the Microsoft Ecosystem in Cameroon</span>
+          <div className="w-full col-span-1 order-2 lg:order-1">
+            <span className="border text-[12px] rounded-3xl p-1 font-light font-lenx ">Must-attend tech event for the Microsoft Ecosystem in Cameroon</span>
             <h1 className="font-grotesk font-bold text-[40px]  mt-2 ">
               .NET Community Conference 2025 | 8th edition
             </h1>
@@ -88,17 +82,17 @@ export function Hero() {
               </Button>
             </div>
           </div>
+        
           {/* Left */}
-          <div className="flex justify-end">
-            <div>
-              <div className="">
+          <div className="order-1 lg:order-2 col-span-1 flex justify-end border">
+            <div className="w-full lg:w-fit flex flex-col border">
                 <div className="bg-[#512BD4] w-[120px] h-[31px] rounded-[12px] px-5 py-2.5  border-2 borer-[4px] border-[#FFFFFF] border-[4px]text-[16px] leanding-[160%] text-white tracking-[-4%] font-grotesk font-bold  items-center justify-center rotate-4 flex">
                   Time left
                 </div>
-              </div>
+            
 
-              <div className="bg-[#E1A325] w-[440px] h-[65px] rounded-[12px] p-5 flex items-center ">
-                <h1 className="text-[30px] font-grotesk font-bold leading-[110%] tracking-[-8%] text-center align-center text-[#2D2006]">{timeLeft.days} Days : <span className="font-light text-[20px] leading-[160%]  tracking-[-1.55%]">{timeLeft.hours} hours : {timeLeft.minutes} min : {timeLeft.seconds} s</span></h1>
+              <div className="bg-[#E1A325] w-full rounded-[12px] py-5 px-5.5 flex ">
+                <h1 className="text-[38px] lg:text-[44px] font-grotesk font-bold leading-[110%] tracking-[-8%] text-center align-center text-[#2D2006]">{timeLeft.days} Days : <span className="font-light  leading-[160%]  tracking-[-1.55%]">{timeLeft.minutes} min : {timeLeft.seconds} s</span></h1>
               </div>
 
               <div className="flex justify-end ">

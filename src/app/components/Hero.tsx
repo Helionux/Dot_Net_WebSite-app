@@ -45,7 +45,7 @@ export function Hero() {
 
   return (
        <section className="max-w-7xl mx-auto lg:px-8 px-3">
-        <div className="mt-16  grid grid-cols-1 lg:grid-cols-2 items-center gap-y-6">
+        <div className="mt-11 lg:mt-16  grid grid-cols-1 lg:grid-cols-2 items-center gap-y-6">
           {/* Right */}
           <div className="w-full col-span-1 order-2 lg:order-1">
             <span className="border text-[12px] rounded-3xl p-1 font-light font-lenx ">Must-attend tech event for the Microsoft Ecosystem in Cameroon</span>
@@ -57,36 +57,36 @@ export function Hero() {
             </p>
 
             
-            <div className="flex  mt-[35px]">
-              <div className="pr-4 ">
+            <div className="grid grid-cols-3 lg:flex items-center w-full mt-[35px] lg:*:px-4">
+              <div className="lg:pr-4 ">
                 <span className="text-[18px] leading-[160%] tracking-normal text-[#512BD4] font-bold">100 places</span>
                 <p className="font-lenx font-light text-[14px] leading-[120%]">Available</p>
               </div>
-              <div className="border-l-2 px-4">
+              <div className="border-l-2 ">
                 <span className="text-[18px] leading-[160%] tracking-normal text-[#512BD4] font-bold  ">Black coffee</span>
                 <p className="font-lenx font-light text-[14px] tracking-normal leading-[120%]">Location</p>
               </div>
-              <div className=" border-l-2 px-4">
+              <div className=" border-l-2 ">
                 <span className="text-[18px] leading-[160%] tracking-normal text-[#512BD4] font-bold">+12</span>
                 <p className="font-lenx font-light text-[14px] leading-[120%]">Speakers</p>
               </div>
             </div>
 
             {/* Button */}
-            <div className="gap-3 flex">
-              <Button className="mt-8 bg-[#0A855F] text-white hover:bg-[#4219b8] px-6 py-3.5 w-[195px] h-[54px] rounded-[13px] font-grotesk font-bold text-[16px] leading-[160%] tracking-normal text-center ">
+            <div className=" w-full lg:flex flex-col">
+              <Button className="mt-8 bg-[#0A855F] text-white hover:bg-[#4219b8] px-6 py-3.5 lg:w-[195px] w-full h-[54px] rounded-[13px] font-grotesk font-bold text-[16px] leading-[160%] tracking-normal text-center ">
                 Subscribe to event
               </Button>
-              <Button className="mt-8 bg-[#FFFFFF] text-black hover:bg-[#FFFFFF] border border-[#DDDDDD] px-6 py-3.5 w-[140px] h-[54px] rounded-[13px] font-grotesk font-bold text-[16px] gap-2.5 leading-[160%] tracking-normal text-center ">
+              <Button className="mt-8 bg-[#FFFFFF] text-black hover:bg-[#FFFFFF] border border-[#DDDDDD] px-6 py-3.5 lg:w-[140px] w-full h-[54px] rounded-[13px] font-grotesk font-bold text-[16px] leading-[160%] tracking-normal text-center ">
                 Share event
               </Button>
             </div>
           </div>
         
           {/* Left */}
-          <div className="order-1 lg:order-2 col-span-1 flex justify-end border">
-            <div className="w-full lg:w-fit flex flex-col border">
-                <div className="bg-[#512BD4] w-[120px] h-[31px] rounded-[12px] px-5 py-2.5  border-2 borer-[4px] border-[#FFFFFF] border-[4px]text-[16px] leanding-[160%] text-white tracking-[-4%] font-grotesk font-bold  items-center justify-center rotate-4 flex">
+          <div className="order-1 lg:order-2 col-span-1 flex justify-end ">
+            <div className="w-full lg:w-fit flex flex-col ">
+                <div className="bg-[#512BD4] w-[120px] h-[31px] rounded-[12px] px-5 py-2.5  border-2 borer-[4px] border-[#FFFFFF] text-[16px] leanding-[160%] text-white tracking-[-4%] font-grotesk font-bold  items-center justify-center rotate-4 flex">
                   Time left
                 </div>
             

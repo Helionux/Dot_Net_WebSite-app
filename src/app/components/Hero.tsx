@@ -49,7 +49,7 @@ export function Hero() {
           {/* Right */}
           <div className="w-full col-span-1 order-2 lg:order-1">
             <span className="border text-[12px] rounded-3xl p-1 font-light font-lenx ">Must-attend tech event for the Microsoft Ecosystem in Cameroon</span>
-            <h1 className="font-grotesk font-bold text-[40px]  mt-2 ">
+            <h1 className="font-grotesk font-bold text-[40px] mt-2 ">
               .NET Community Conference 2025 | 8th edition
             </h1>
             <p className="font-light font-lenx">
@@ -73,7 +73,7 @@ export function Hero() {
             </div>
 
             {/* Button */}
-            <div className=" w-full lg:flex flex-col">
+            <div className=" w-full lg:flex gap-2 ">
               <Button className="mt-8 bg-[#0A855F] text-white hover:bg-[#4219b8] px-6 py-3.5 lg:w-[195px] w-full h-[54px] rounded-[13px] font-grotesk font-bold text-[16px] leading-[160%] tracking-normal text-center ">
                 Subscribe to event
               </Button>
@@ -86,7 +86,7 @@ export function Hero() {
           {/* Left */}
           <div className="order-1 lg:order-2 col-span-1 flex justify-end ">
             <div className="w-full lg:w-fit flex flex-col ">
-                <div className="bg-[#512BD4] w-[120px] h-[31px] rounded-[12px] px-5 py-2.5  border-2 borer-[4px] border-[#FFFFFF] text-[16px] leanding-[160%] text-white tracking-[-4%] font-grotesk font-bold  items-center justify-center rotate-4 flex">
+                <div className="bg-[#512BD4] w-[120px] h-[31px] rounded-[12px] px-5 py-2.5  border-2 borer-[4px] border-[#FFFFFF] text-16px lg:text-[16px] leanding-[160%] text-white tracking-[-4%] font-grotesk font-bold  items-center justify-center rotate-4 flex">
                   Time left
                 </div>
             

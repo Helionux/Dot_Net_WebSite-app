@@ -3,207 +3,150 @@ import Image from "next/image";
 
 
 export default function Teams() {
+    const Members = [
+        {
+            image: '/expert-1.png',
+            name: "Jean-Marc ONANA",
+            alt: "Jean-Marc ONANA",
+            role: "Principal Solution Architect",
+            details: [
+                '15+ years of .NET experience',
+                'Microsoft MVP for 8 years',
+                'Author of 3 books on software architecture'
+            ],
+            desc: "Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;"
+        },
+        {
+            image: '/expert-2.png',
+            name: "Thomas NKUISSI",
+            alt: "Thomas NKUISSI",
+            role: "Principal Solution Architect",
+            details: [
+                '15+ years of .NET experience',
+                'Microsoft MVP for 8 years',
+                'Author of 3 books on software architecture'
+            ],
+            desc: "Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;"
+        },
+        {
+            image: '/expert-4.png',
+            name: "Paul MBARGA",
+            role: "Principal Solution Architect",
+            alt: "Paul MBARGA",
+            details: [
+                '15+ years of .NET experience',
+                'Microsoft MVP for 8 years',
+                'Author of 3 books on software architecture'
+            ],
+            desc: "Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;"
+        },
+        {
+            image: '/expert-3.png',
+            name: "Georges FOTSO",
+            role: "Principal Solution Architect",
+            alt: "Georges FOTSO",
+            details: [
+                '15+ years of .NET experience',
+                'Microsoft MVP for 8 years',
+                'Author of 3 books on software architecture'
+            ],
+            desc: "Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;"
+        },
+        {
+            image: '/expert-3.png',
+            name: "Paul MBARGA",
+            role: "Principal Solution Architect",
+            alt: "Paul MBARGA",
+            details: [
+                '15+ years of .NET experience',
+                'Microsoft MVP for 8 years',
+                'Author of 3 books on software architecture'
+            ],
+            desc: "Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;"
+        },
+        {
+            image: '/expert-1.png',
+            name: "Jean-Marc ONANA",
+            role: "Principal Solution Architect",
+            alt: "Jean-Marc ONANA",
+            details: [
+                '15+ years of .NET experience',
+                'Microsoft MVP for 8 years',
+                'Author of 3 books on software architecture'
+            ],
+            desc: "Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;"
+        },
+        {
+            image: '/expert-2.png',
+            name: "Thomas NKUISSI",
+            role: "Principal Solution Architect",
+            alt: "Thomas NKUISSI",
+            details: [
+                '15+ years of .NET experience',
+                'Microsoft MVP for 8 years',
+                'Author of 3 books on software architecture'
+            ],
+            desc: "Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;"
+        },
+        {
+            image: '/expert-5.png',
+            name: "Thomas NKUISSI",
+            role: "Principal Solution Architect",
+            alt: "Thomas NKUISSI",
+            details: [
+                '15+ years of .NET experience',
+                'Microsoft MVP for 8 years',
+                'Author of 3 books on software architecture'
+            ],
+            desc: "Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;"
+        }
+    ]
+
+
     return (
-        <div className="px-2.5 mt-20">
-            <div className="w-full bg-[#1F143B] mx-auto py-20 px-8 rounded-[44px] space-y-11">
+        <div className="md:px-2.5 mt-20">
+            <div className="w-full bg-[#1F143B] md:mx-auto p-4 md:py-20 md:px-8 md:rounded-[44px] md:space-y-11">
                     <div className="max-w-[353px]">
                         <h2 className="font-grotesk text-[36px] text-[#FFFFFF] font-bold ">Renowned experts <span className="text-[#8B6BF8]">to inspire you</span></h2>
                     </div>
                     <div className=" mt-25">
-                        <div className="grid grid-cols-4 gap-6 gap-y-20">
-                            <div className=" ">
-                                <div className=" flex flex-col bg-[#FFFFFF] rounded-[13px] shadow-lg ">
-                                    <div className=" rounded-2xl pl-5 -mt-[50px]">
-                                        <Image
-                                        className=" w-[100px] h-[100px] object-cover border-5 border-[#1F143B] rounded-2xl"
-                                        src="/expert-1.png"
-                                        alt="Hero Image"
-                                        width={100}
-                                        height={100}
-                                        />
-                                    </div>
-                                    <div className="p-5">
-                                        <h4 className=" font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Jean-Marc ONANA</h4>
-                                        <p className="font-['Lexend']  text-[#404040] font-light text-[14px] border-b border-[#1F143B] pb-3">Principal Solution Architect</p>
-                                        <ul className=" text-[16px] font-lenx text-[#404040] font-light px-3 list-inside p-3 list-disc">
-                                            <li>15+ years of .NET experience</li>
-                                            <li>Microsoft MVP for 8 years</li>
-                                            <li>Author of 3 books on software architecture</li>
-                                        </ul>
-                                        <p className="ml-2 font-['Lexend'] border-t border-[#1F143B] pt-3 text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;</p>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <div className=" ">
-                                <div className=" flex flex-col bg-[#FFFFFF] rounded-[13px] shadow-lg ">
-                                    <div className=" rounded-2xl pl-5 -mt-[50px]">
-                                        <Image
-                                        className=" w-[100px] h-[100px] object-cover border-5 border-[#1F143B] rounded-2xl"
-                                        src="/expert-2.png"
-                                        alt="Hero Image"
-                                        width={100}
-                                        height={100}
-                                        />
-                                    </div>
-                                    <div className="p-5">
-                                        <h4 className=" font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Thomas NKUISSI</h4>
-                                        <p className="font-['Lexend']  text-[#404040] font-light text-[14px] border-b border-[#1F143B] pb-3">Principal Solution Architect</p>
-                                        <ul className=" text-[16px] font-lenx text-[#404040] font-light px-3 list-inside p-3 list-disc">
-                                            <li>15+ years of .NET experience</li>
-                                            <li>Microsoft MVP for 8 years</li>
-                                            <li>Author of 3 books on software architecture</li>
-                                        </ul>
-                                        <p className="ml-2 font-['Lexend'] border-t border-[#1F143B] pt-3 text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;</p>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <div className=" ">
-                                <div className=" flex flex-col bg-[#FFFFFF] rounded-[13px] shadow-lg ">
-                                    <div className=" rounded-2xl pl-5 -mt-[50px]">
-                                        <Image
-                                        className=" w-[100px] h-[100px] object-cover border-5 border-[#1F143B] rounded-2xl"
-                                        src="/expert-2.png"
-                                        alt="Hero Image"
-                                        width={100}
-                                        height={100}
-                                        />
-                                    </div>
-                                    <div className="p-5">
-                                        <h4 className=" font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Thomas NKUISSI</h4>
-                                        <p className="font-['Lexend']  text-[#404040] font-light text-[14px] border-b border-[#1F143B] pb-3">Principal Solution Architect</p>
-                                        <ul className=" text-[16px] font-lenx text-[#404040] font-light px-3 list-inside p-3 list-disc">
-                                            <li>15+ years of .NET experience</li>
-                                            <li>Microsoft MVP for 8 years</li>
-                                            <li>Author of 3 books on software architecture</li>
-                                        </ul>
-                                        <p className="ml-2 font-['Lexend'] border-t border-[#1F143B] pt-3 text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;</p>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <div className=" ">
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-x-2 gap-y-20 md:gap-6 md:gap-y-20">
+                        {
+                            Members.map((member, idx) => (
+                                <div key={idx} className=" ">
                                 <div className="flex flex-col bg-[#FFFFFF] rounded-[13px] shadow-lg ">
-                                    <div className=" rounded-2xl pl-5 -mt-[50px]">
+                                    <div className=" rounded-2xl pl-2 md:pl-5 -mt-[50px]">
                                         <Image
                                         className=" w-[100px] h-[100px] object-cover border-5 border-[#1F143B] rounded-2xl"
-                                        src="/expert-4.png"
-                                        alt="Hero Image"
+                                        src={member.image}
+                                        alt={member.alt}
                                         width={100}
                                         height={100}
                                         />
                                     </div>
-                                    <div className="p-5">
-                                        <h4 className=" font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Paul MBARGA</h4>
-                                        <p className="font-['Lexend']  text-[#404040] font-light text-[14px] border-b border-[#1F143B] pb-3">Principal Solution Architect</p>
-                                        <ul className=" text-[16px] font-lenx text-[#404040] font-light px-3 list-inside p-3 list-disc">
-                                            <li>15+ years of .NET experience</li>
-                                            <li>Microsoft MVP for 8 years</li>
-                                            <li>Author of 3 books on software architecture</li>
+                                    <div className="p-1.5 md:p-5">
+                                            <h4 className=" font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">{member.name}</h4>
+                                            <p className="font-['Lexend']  text-[#404040] font-light text-[14px] border-b border-[#1F143B] pb-3">{member.role}</p>
+                                            <ul className=" text-[16px] font-lenx text-[#404040] font-light md:px-3 list-inside md:p-3 list-disc">
+                                                {
+                                                    member.details && member.details.map((data, idx) => (
+                                                        <li key={idx}>{data}</li>
+                                                    ))
+                                                } 
                                         </ul>
-                                        <p className="ml-2 font-['Lexend'] border-t border-[#1F143B] pt-3 text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;</p>
+                                        <p className="md:ml-2 font-['Lexend'] border-t border-[#1F143B] pt-3 text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;</p>
                                     </div>
                                 </div>
                                 
                             </div>
-                            <div className=" ">
-                                <div className="flex flex-col bg-[#FFFFFF] rounded-[13px] shadow-lg ">
-                                    <div className=" rounded-2xl pl-5 -mt-[50px]">
-                                        <Image
-                                        className=" w-[100px] h-[100px] object-cover border-5 border-[#1F143B] rounded-2xl"
-                                        src="/expert-3.png"
-                                        alt="Hero Image"
-                                        width={100}
-                                        height={100}
-                                        />
-                                    </div>
-                                    <div className="p-5">
-                                        <h4 className=" font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Georges FOTSO</h4>
-                                        <p className="font-['Lexend']  text-[#404040] font-light text-[14px] border-b border-[#1F143B] pb-3">Principal Solution Architect</p>
-                                        <ul className=" text-[16px] font-lenx text-[#404040] font-light px-3 list-inside p-3 list-disc">
-                                            <li>15+ years of .NET experience</li>
-                                            <li>Microsoft MVP for 8 years</li>
-                                            <li>Author of 3 books on software architecture</li>
-                                        </ul>
-                                        <p className="ml-2 font-['Lexend'] border-t border-[#1F143B] pt-3 text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;</p>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <div className=" ">
-                                <div className="flex flex-col bg-[#FFFFFF] rounded-[13px] shadow-lg ">
-                                    <div className=" rounded-2xl pl-5 -mt-[50px]">
-                                        <Image
-                                        className=" w-[100px] h-[100px] object-cover border-5 border-[#1F143B] rounded-2xl"
-                                        src="/expert-4.png"
-                                        alt="Hero Image"
-                                        width={100}
-                                        height={100}
-                                        />
-                                    </div>
-                                    <div className="p-5">
-                                        <h4 className=" font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Paul MBARGA</h4>
-                                        <p className="font-['Lexend']  text-[#404040] font-light text-[14px] border-b border-[#1F143B] pb-3">Principal Solution Architect</p>
-                                        <ul className=" text-[16px] font-lenx text-[#404040] font-light px-3 list-inside p-3 list-disc">
-                                            <li>15+ years of .NET experience</li>
-                                            <li>Microsoft MVP for 8 years</li>
-                                            <li>Author of 3 books on software architecture</li>
-                                        </ul>
-                                        <p className="ml-2 font-['Lexend'] border-t border-[#1F143B] pt-3 text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;</p>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <div className=" ">
-                                <div className="flex flex-col bg-[#FFFFFF] rounded-[13px] shadow-lg ">
-                                    <div className=" rounded-2xl pl-5 -mt-[50px]">
-                                        <Image
-                                        className=" w-[100px] h-[100px] object-cover border-5 border-[#1F143B] rounded-2xl"
-                                        src="/expert-1.png"
-                                        alt="Hero Image"
-                                        width={100}
-                                        height={100}
-                                        />
-                                    </div>
-                                    <div className="p-5">
-                                        <h4 className=" font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Jean-Marc ONANA</h4>
-                                        <p className="font-['Lexend']  text-[#404040] font-light text-[14px] border-b border-[#1F143B] pb-3">Principal Solution Architect</p>
-                                        <ul className=" text-[16px] font-lenx text-[#404040] font-light px-3 list-inside p-3 list-disc">
-                                            <li>15+ years of .NET experience</li>
-                                            <li>Microsoft MVP for 8 years</li>
-                                            <li>Author of 3 books on software architecture</li>
-                                        </ul>
-                                        <p className="ml-2 font-['Lexend'] border-t border-[#1F143B] pt-3 text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;</p>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <div className=" ">
-                                <div className="flex flex-col bg-[#FFFFFF] rounded-[13px] shadow-lg ">
-                                    <div className=" rounded-2xl pl-5 -mt-[50px]">
-                                        <Image
-                                        className=" w-[100px] h-[100px] object-cover border-5 border-[#1F143B] rounded-2xl"
-                                        src="/expert-2.png"
-                                        alt="Hero Image"
-                                        width={100}
-                                        height={100}
-                                        />
-                                    </div>
-                                    <div className="p-5">
-                                        <h4 className=" font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">Thomas NKUISSI</h4>
-                                        <p className="font-['Lexend']  text-[#404040] font-light text-[14px] border-b border-[#1F143B] pb-3">Principal Solution Architect</p>
-                                        <ul className=" text-[16px] font-lenx text-[#404040] font-light px-3 list-inside p-3 list-disc">
-                                            <li>15+ years of .NET experience</li>
-                                            <li>Microsoft MVP for 8 years</li>
-                                            <li>Author of 3 books on software architecture</li>
-                                        </ul>
-                                        <p className="ml-2 font-['Lexend'] border-t border-[#1F143B] pt-3 text-[#404040] font-light text-[16px]">Session: &quot;Revolutionize your applications with .NET 9 and AI&quot;</p>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
+                            ))
+                           }   
+                            
+                    </div>
+                    <div className="w-full items-center gap-2 flex flex-col mt-4 md:hidden">
+                        <button className="bg-white w-full p-7 rounded-[13px] font-grotesk font-bold text-[16px] leading-[160%]">See all speakers</button>
+                        <button className="bg-[#0A855F] w-full p-7 rounded-[13px] text-white font-grotesk font-bold text-[16px] leading-[160%]">Become a speakers</button>
+                    </div>
                     {/*  deuxieme div */}
                     
                         <div className="flex flex-col-reverse bg-[url(/expert-5.png)] h-[600px] bg-cover bg-no-repeat bg-center max-w-full mt-20 rounded-2xl p-10">

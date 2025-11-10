@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="max-w-7xl mx-auto mt-20 lg:px-8 divide-y">
+    <footer className="w-full lg:max-w-7xl lg:mx-auto lg:mt-20 lg:px-8 divide-y">
       <div className="flex gap-[98px]">
         <div className="max-w-[300px]">
           <figure>

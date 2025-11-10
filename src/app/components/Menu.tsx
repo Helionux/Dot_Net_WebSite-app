@@ -59,7 +59,6 @@ export default function Menu() {
                         </h1>
                 </div>
                 <div className=" flex flex-nowrap gap-6 overflow-auto box-border no-scrollbar">
-
                     {
                         Menus.map((menu, idx) => (
                             <div key={idx} className={`w-[230px] md:w-[270px] shrink-0 font-grotesk ${( idx + 1) % 2 == 0 ? "mt-4" : " "} `}>
@@ -79,9 +78,6 @@ export default function Menu() {
                             </div>
                         ))
                     }
-                    
-              
-                
                 </div>
             </div>
         </div>

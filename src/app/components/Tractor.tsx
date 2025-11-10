@@ -4,18 +4,18 @@ export default function About() {
     return (
       <div className="px-2.5 mt-10">
             <div className=" mx-auto">
-                <div className=" p-8">
+                <div className=" p-3">
                     <div className="md:max-w-[403px]">
                         <h1 className="text-[44px] font-bold leading-[110%] -tracking-[8%] font-grotesk ">They were there <span className="text-[#512BD4]"> last year.</span></h1>
                     </div>
-                    <div className="md:max-w-7xl mt-6 flex flex-row border gap-6 font-lenx font-light">
-                        <div className="max-w-[250px w-full h-40  border">
+                    <div className="w-full md:max-w-7xl text-[16px] mt-6 flex divide-x flex-row gap-6 font-lenx font-light md:flex-nowrap overflow-auto box-border no-scrollbar">
+                        <div className=" w-full shrink-0 p-3">
                             <p>
                                 &quot;An incredible experience! The workshops on .NET 8 and applied AI really helped me improve my skills. Well done to the team for the flawless organization.&quot;
                             </p>
                             <span className="font-bold">Jean-Paul M. – Backend developer</span>
                         </div>
-                        <div>
+                        <div className=" w-full shrink-0 h-40 p-3">
                             <p>
                             &quot;It was my first time participating and I loved it. I got to meet experts I already follow online and ask them all my questions. I&apos;m leaving feeling super motivated!&quot;
                             </p>
@@ -23,13 +23,13 @@ export default function About() {
                                 Nathalie K. – Computer science student
                             </span>
                         </div>
-                        <div>
+                        <div className=" w-full shrink-0 h-40 p-3">
                             <p>
                                 &quot;The sessions on Azure and hybrid cloud were very practical and applicable to our projects. I highly recommend this conference to anyone who wants to advance in the Microsoft ecosystem.&quot;
                             </p>
                             <span className="font-bold">Hervé B. – Freelance .NET</span>
                         </div>
-                        <div>
+                        <div className=" w-full shrink-0 h-40 p-3">
                             <p>
                                 &quot;I loved how kind and helpful the instructors were. Even as a beginner, I felt included and encouraged.&quot;
                             </p>
@@ -37,7 +37,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <div className="grid grid-cols-4 gap-3 ">
+                <div className="grid grid-cols-4 gap-3 mt-10">
                     <figure>
                         <Image src="/image_3.png" width={100} height={100} alt="Teams" className="w-full h-full object-cover rounded-[18px]"/>
                     </figure>

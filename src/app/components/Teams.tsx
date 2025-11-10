@@ -124,10 +124,10 @@ export default function Teams() {
                                         height={100}
                                         />
                                     </div>
-                                    <div className="p-1.5 md:p-5">
+                                    <div className="p-3">
                                             <h4 className=" font-['Space_Grotestk'] text-[20px] text-[#190649] font-bold">{member.name}</h4>
                                             <p className="font-['Lexend']  text-[#404040] font-light text-[14px] border-b border-[#1F143B] pb-3">{member.role}</p>
-                                            <ul className=" text-[16px] font-lenx text-[#404040] font-light md:px-3 list-inside md:p-3 list-disc">
+                                            <ul className=" text-[16px] font-lenx text-[#404040] font-light p-3 list-disc">
                                                 {
                                                     member.details && member.details.map((data, idx) => (
                                                         <li key={idx}>{data}</li>
@@ -149,12 +149,11 @@ export default function Teams() {
                     </div>
                     {/*  deuxieme div */}
                     
-                        <div className="flex flex-col-reverse bg-[url(/expert-5.png)] h-[600px] bg-cover bg-no-repeat bg-center max-w-full mt-20 rounded-2xl p-10">
-                                <div className="   w-[560px] p-5 rounded-[18px] bg-[#FFFFFF] shadow-lg ">
-                                    <div className="w-full">
-                                    <h2 className="font-['Space_Grotesk'] text-black font-bold leading-none text-[34px] ">
+                        <div className="flex md:flex-col-reverse bg-[url(/expert-5.png)] h-[600px] bg-cover bg-no-repeat bg-center items-end md:max-w-full mt-20 rounded-2xl p-2 md:p-10">
+                                <div className=" w-[386px]  md:w-[560px] p-5 rounded-[18px] bg-[#FFFFFF] shadow-lg items-end  ">
+                                    <div className="md:w-full max-w-full">
+                                    <h2 className="font-['Space_Grotesk'] text-black font-bold leading-[100%] text-[28px] md:text-[34px] ">
                                         <span className="text-[#512BD4] ">
-                                        
                                         Must-attend tech event </span>for the Microsoft Ecosystem in Cameroon
                                     </h2>
                                     <p className="font-['Lexend'] text-[#575362] text-Gray font-light text-[15px] leading-none">
@@ -162,8 +161,8 @@ export default function Teams() {
                                         eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                     </p>
                                     </div>
-                                    <div className="w-[500px] ">
-                                    <div className="flex flex-wrap gap-2 text-[#575362] mt-4">
+                                    <div className="md:w-[500px] ">
+                                    <div className="flex flex-wrap gap-2 text-[#575362] mt-4 ">
                                         
                                         <span className="text-[14px] font-['Lexend'] border p-2.5 rounded-[13px] font-light">
                                             Subscribe to event
@@ -200,9 +199,9 @@ export default function Teams() {
                         
                             {/* derniere div */}
                             <div className=" mt-10">
-                        <h1 className="text-[#FFFFFF] font-bold font-['Space_Grotesk'] text-[44px]">Core team</h1>
+                        <h1 className="text-[#FFFFFF] font-bold font-['Space_Grotesk'] text-[28px] md:text-[44px]">Core team</h1>
                   
-                        <div className=" mt-25 grid grid-cols-4 gap-x-10 gap-y-20">
+                        <div className=" mt-25 grid grid-cols-2 md:grid-cols-4 gap-x-3 gap-y-20 md:gap-x-10 md:gap-y-20">
                             <div className=" ">
                                 <div className="flex flex-col bg-[#FFFFFF] rounded-[13px] shadow-lg ">
                                     <div className=" rounded-2xl pl-5 -mt-[50px]">
@@ -292,10 +291,8 @@ export default function Teams() {
                                 
                             </div>
                         </div>
-                    </div>          
+                            </div>          
                     </div>
-                    
-                
             </div>
         </div>
     )

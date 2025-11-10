@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Contributor() {
   return (
-    <div className=" max-w-7xl mx-auto px-10 mt-10">
+    <div className=" max-w-7xl mx-auto md:px-10 p-4 mt-10">
       <div className="items-center w-full justify-between z-10 bg-white/95 ">
         <div className="">
           <h2 className="text-[44px] font-black font-grotesk">Contributors</h2>
@@ -11,9 +11,8 @@ export default function Contributor() {
           </p>
         </div>
 
-        <div className="space-y-3 divide-y mt-6 "> 
-
-          <div className="justify-center  grid grid-cols-4 divide-x pb-3 *:pr-4">
+        <div className="space-y-3 mt-6  "> 
+          <div className="justify-center grid grid-cols-2 md:grid-cols-4 gap-2 divide-y pb-3 *:pr-4">
             <div className="">
                 <Image
                   className=""
@@ -26,7 +25,6 @@ export default function Contributor() {
                 <Link href="/" className="underline font-bold">See more</Link>
             </div>
             <div className="pl-4">
-              <div>
                 <Image
                   className=""
                   src="/logo_2.png"
@@ -36,10 +34,8 @@ export default function Contributor() {
                 />
                 <p className="font-lenx font-light mt-2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. </p>
                 <Link href="/" className="underline font-bold">See more</Link>
-              </div>
             </div>
-            <div className=" pl-4">
-              <div>
+            <div className="pl-4">
                 <Image
                   className=""
                   src="/logo_3.png"
@@ -49,10 +45,8 @@ export default function Contributor() {
                 />
                 <p className="font-lenx font-light mt-2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. </p>
                 <Link href="/" className="underline font-bold">See more</Link>
-              </div>
             </div>
             <div className="pl-4">
-              <div>
                 <Image
                   className=""
                   src="/logo_4.png"
@@ -62,11 +56,7 @@ export default function Contributor() {
                 />
                 <p className="font-lenx font-light mt-2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. </p>
                 <Link href="/" className="underline font-bold">See more</Link>
-              </div>
             </div>
-          </div>
-
-          <div className=" justify-center grid grid-cols-4 divide-x *:pr-4">  
             <div className="">
                 <Image
                   className="mt-5"
@@ -79,7 +69,6 @@ export default function Contributor() {
                 <Link href="/" className="underline font-bold font-grotesk">See more</Link>
             </div>
             <div className="pl-4">
-              <div className="">
                 <Image
                   src="/logo_6.png"
                   alt="Hero Image"
@@ -89,10 +78,8 @@ export default function Contributor() {
                 />
                 <p className="font-lenx font-light mt-2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. </p>
                 <Link href="/" className="underline font-bold">See more</Link>
-              </div>
             </div>
             <div className="pl-4">
-              <div className="">
                 <Image
                   className="mt-2"
                   src="/logo_7.png"
@@ -102,10 +89,9 @@ export default function Contributor() {
                 />
                 <p className="font-lenx font-light tracking-[0%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. </p>
                 <Link href="/" className="underline font-bold">See more</Link>
-              </div>
+              
             </div>
-            <div className="pl-4 ">
-              <div className="">
+            <div className="pl-4">
                 <Image
                   className="mt-3"
                   src="/logo_2.png"
@@ -115,9 +101,8 @@ export default function Contributor() {
                 />
                 <p className="font-lenx font-light ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. </p>
                 <Link href="/" className="underline font-bold">See more</Link>
-              </div>
             </div>
-            </div>
+          </div>
         </div>
 
       </div>

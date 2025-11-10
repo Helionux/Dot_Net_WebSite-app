@@ -5,11 +5,11 @@ export default function About() {
       <div className="px-2.5 mt-10">
             <div className=" mx-auto">
                 <div className=" p-8">
-                    <div className="max-w-[403px]">
+                    <div className="md:max-w-[403px]">
                         <h1 className="text-[44px] font-bold leading-[110%] -tracking-[8%] font-grotesk ">They were there <span className="text-[#512BD4]"> last year.</span></h1>
                     </div>
-                    <div className="max-w-7xl mt-6 grid grid-cols-4 gap-6 font-lenx font-light">
-                        <div>
+                    <div className="md:max-w-7xl mt-6 flex flex-row border gap-6 font-lenx font-light">
+                        <div className="max-w-[250px w-full h-40  border">
                             <p>
                                 &quot;An incredible experience! The workshops on .NET 8 and applied AI really helped me improve my skills. Well done to the team for the flawless organization.&quot;
                             </p>

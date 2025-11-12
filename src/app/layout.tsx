@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${spaceGrotesk.variable} ${lexend.variable} antialiased`}
+        className={` ${spaceGrotesk.variable} ${lexend.variable} antialiased border` }
       >
         {children}
       </body>

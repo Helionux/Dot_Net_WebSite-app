@@ -104,8 +104,8 @@ export default function Teams() {
 
 
     return (
-        <div className="md:px-2.5 mt-20">
-            <div className="w-full bg-[#1F143B] md:mx-auto p-4 md:py-20 md:px-8 md:rounded-[44px] md:space-y-11">
+        <div className="mx-auto md:px-2.5 mt-20">
+            <div className=" bg-[#1F143B] md:mx-auto p-4 md:py-20 md:px-8 md:rounded-[44px] md:space-y-11">
                     <div className="max-w-[353px]">
                         <h2 className="font-grotesk text-[36px] text-[#FFFFFF] font-bold ">Renowned experts <span className="text-[#8B6BF8]">to inspire you</span></h2>
                     </div>

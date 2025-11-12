@@ -1,6 +1,43 @@
 import Image from "next/image"
 
 export default function About() {
+
+    const Images1 = [
+        {
+            img: '/image_3.png',
+            alt: "Member-1" 
+        },
+        {
+            img: '/image_8.jpg',
+            alt: "Member-1"
+        },
+        {
+            img: '/image_1.png',
+            alt: "Member-1"
+        },
+        {
+            img: '/image_7.jpg',
+            alt: "Member-1"
+        }
+
+    ]
+
+    const Images2 = [
+        {
+            img: '/image_9.jpg',
+            alt: "Member-1"
+        },
+        {
+            img: '/image_5.jpg',
+            alt: "Member-1"
+        },
+        {
+            img: '/image_6.png',
+            alt: "Member-1"
+        }
+    ]
+
+
     return (
       <div className="px-2.5 mt-10">
             <div className=" mx-auto">
@@ -8,7 +45,7 @@ export default function About() {
                     <div className="md:max-w-[403px]">
                         <h1 className="text-[44px] font-bold leading-[110%] -tracking-[8%] font-grotesk ">They were there <span className="text-[#512BD4]"> last year.</span></h1>
                     </div>
-                    <div className="w-full md:max-w-7xl text-[16px] mt-6 flex divide-x flex-row gap-6 font-lenx font-light md:flex-nowrap overflow-auto box-border no-scrollbar">
+                    <div className="w-full md:max-w-7xl text-[16px] mt-6 flex divide-x md:grid md:grid-cols-4 flex-row gap-6 font-lenx font-light md:flex-nowrap overflow-auto box-border no-scrollbar">
                         <div className=" w-full shrink-0 p-3">
                             <p>
                                 &quot;An incredible experience! The workshops on .NET 8 and applied AI really helped me improve my skills. Well done to the team for the flawless organization.&quot;
@@ -37,25 +74,27 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <div className="grid grid-cols-4 gap-3 mt-10">
-                    <figure>
-                        <Image src="/image_3.png" width={100} height={100} alt="Teams" className="w-full h-full object-cover rounded-[18px]"/>
+                <div className="w-[1000px] overflow-auto no-scrollbar box-border border">
+                    <div className="flex flex-row md:grid md:grid-cols-4 gap-3 mt-10 md:flex-nowrap overflow-auto box-border no-scrollbar">
+                    {
+                        Images1.map((img, idx) => (
+                            <figure key={idx}>
+                        <Image src={img.img} width={100} height={100} alt={img.alt} className="w-full h-full object-cover rounded-[18px]"/>
                     </figure>
-                    <figure>
-                        <Image src="/image_8.jpg" width={100} height={100} alt="Teams" className="w-full h-full object-cover rounded-[18px]"/>
-                    </figure>
-                    <figure>
-                        <Image src="/image_1.png" width={100} height={100} alt="Teams" className="w-full h-full object-cover rounded-[18px]"/>
-                    </figure>
-                    <figure>
-                        <Image src="/image_7.jpg" width={100} height={100} alt="Teams" className="w-full h-full object-cover rounded-[18px]"/>
-                    </figure>   
+                        ))
+                    }
+                    </div>
+                    <div className="grid grid-cols-3 gap-3 mt-3 h-[280x]">
+                        {
+                            Images2.map((img, idx) => (
+                                <figure key={idx}>
+                            <Image src={img.img} width={100} height={100} alt={img.alt} className="w-full h-full object-cover rounded-[18px]"/>
+                        </figure>
+                            ))
+                        }
+                    </div>
                 </div>
-                <div className="grid grid-cols-3 gap-3 mt-3 h-[280x]">
-                    <Image src="/image_9.jpg" width={100} height={100} alt="Teams" className="w-full object-cover rounded-[18px]"/>
-                    <Image src="/image_5.jpg" width={100} height={100} alt="Teams" className="w-full h-full object-cover rounded-[18px]"/>
-                    <Image src="/image_6.png" width={100} height={100} alt="Teams" className=" w-full h-full object-cover rounded-[18px]"/>
-                </div>
+                
             </div>
             
       </div>

@@ -56,7 +56,7 @@ export default function Header() {
           <div className={`${isOpen ? "block" : "hidden"} bg-white absolute top-16 flex flex-col z-10 items-center gap-3 right-2 w-full px-4 py-3`}>       
            {
             links.map((links, index) => (
-              <Link href={links.link} className={`${index === 0 && "font-bold"} border rounded-[13px] visited:bg-red-800 shadow w-full p-1.5`} key={index}>{links.name}</Link>
+              <Link href={links.link} className={`${index === 0 && "font-bold"} border rounded-[13px] shadow w-full p-1.5`} key={index}>{links.name}</Link>
             ))
           }    
           </div>

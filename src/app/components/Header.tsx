@@ -10,10 +10,10 @@ export default function Header() {
   const [isOpen, setIsOPen] = useState(false);
   const links = [
     { name: "Home", link: "/" },
-    { name: "Events", link: "/event" },
-    { name: "About us", link: "/about" },
-    { name: "Projects", link: "/project" },
-    { name: "Resource", link: "/resource" },
+    { name: "Events", link: "#" },
+    { name: "About us", link: "#" },
+    { name: "Projects", link: "#" },
+    { name: "Resource", link: "#" },
 
   ]
 

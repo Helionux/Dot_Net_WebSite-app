@@ -78,8 +78,8 @@ export default function Footer() {
           
         </div>
       </div>
-      <div className="md:p-5 items-center flex-col justify-center flex border-[#DDDDDD] md:divide-x md:divide-black">
-        <p className="text-[#575362] text-[14px] leading-[160%] px-1 order-1">
+      <div className="md:p-5 items-center flex-col md:flex-row justify-center flex border-[#DDDDDD] md:divide-x md:divide-black">
+        <p className="text-[#575362] text-[14px] leading-[160%] px-1 order-1 md:order-first">
             Copyright © .NET Cameroun 2025
         </p>
         <p className="text-[#575362] text-[14px] leading-[160%] px-1 ">

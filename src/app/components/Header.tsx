@@ -53,10 +53,10 @@ export default function Header() {
 
         <div className="md:hidden">
           <button onClick={() => setIsOPen(preview =>!preview)}>{isOpen ? <X /> : <Menu />}</button>
-          <div className={`${isOpen ? "block" : "hidden"} bg-white absolute top-16 right-2 w-48 px-4 py-1`}>       
+          <div className={`${isOpen ? "block" : "hidden"} bg-white absolute top-16 flex flex-col z-10 items-center gap-3 right-2 w-full px-4 py-1`}>       
            {
             links.map((links, index) => (
-              <Link href={links.link} className={`${index === 0 && "font-bold"}`} key={index}>{links.name}</Link>
+              <Link href={links.link} className={`${index === 0 && "font-bold"} border p-1.5`} key={index}>{links.name}</Link>
             ))
           }    
           </div>

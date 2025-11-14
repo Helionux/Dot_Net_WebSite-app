@@ -12,7 +12,7 @@ interface TimeRemaining {
 
 export function Hero() {
   
-  const targetDate = useMemo(() =>  new Date("2025-11-12T00:00:00").getTime(), [])
+  const targetDate = useMemo(() =>  new Date("2025-11-20T00:00:00").getTime(), [])
   const calculateTimeRemaining = useCallback((): TimeRemaining => {
     const now = new Date().getTime();
     const distance = targetDate - now;

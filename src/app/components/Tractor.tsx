@@ -40,7 +40,7 @@ export default function About() {
 
     return (
       <div className="px-2.5 mt-10">
-            <div className=" mx-auto">
+            <div className="w-full mx-auto">
                 <div className=" p-3">
                     <div className="md:max-w-[403px]">
                         <h1 className="text-[44px] font-bold leading-[110%] -tracking-[8%] font-grotesk ">They were there <span className="text-[#512BD4]"> last year.</span></h1>
@@ -74,23 +74,25 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <div className="w-[1000px] overflow-auto no-scrollbar box-border border">
-                    <div className="flex flex-row md:grid md:grid-cols-4 gap-3 mt-10 md:flex-nowrap overflow-auto box-border no-scrollbar">
-                    {
-                        Images1.map((img, idx) => (
-                            <figure key={idx}>
-                        <Image src={img.img} width={100} height={100} alt={img.alt} className="w-full h-full object-cover rounded-[18px]"/>
-                    </figure>
-                        ))
-                    }
-                    </div>
-                    <div className="grid grid-cols-3 gap-3 mt-3 h-[280x]">
+
+                <div className="gap-6 overflow-x-auto ">
+                    <div className="grid md:grid-cols-4 grid-flow-col  overflow-auto md:auto-cols-auto gap-3 mt-10 box-border no-scrollbar">
                         {
-                            Images2.map((img, idx) => (
-                                <figure key={idx}>
-                            <Image src={img.img} width={100} height={100} alt={img.alt} className="w-full h-full object-cover rounded-[18px]"/>
-                        </figure>
-                            ))
+                        Images1.map((img, idx) => (
+                            <figure key={idx} className="w-[241px] md:w-auto">
+                            <Image src={img.img} width={200} height={140} alt={img.alt} className="w-full h-full object-cover rounded-[18px]" />
+                            </figure>
+                        ))
+                        }
+                    </div>
+
+                    <div className="grid md:grid-cols-3 grid-flow-col md:auto-cols-auto gap-3 mt-3 overflow-auto box-border no-scrollbar">
+                        {
+                        Images2.map((img, idx) => (
+                            <figure key={idx} className="w-[325px] md:w-auto">
+                            <Image src={img.img} width={200} height={140} alt={img.alt} className="w-full h-full object-cover rounded-[18px]" />
+                            </figure>
+                        ))
                         }
                     </div>
                 </div>
